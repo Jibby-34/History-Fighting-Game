@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
@@ -6,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     // ScriptableObject containing control and visual info
     public CharacterData characterData;
+    public AttackHandler attackHandler;
 
     // Double jump avoidance
     [Header("Ground Check")]
@@ -24,6 +26,9 @@ public class PlayerController : MonoBehaviour
     private string horizontalAxis = "Horizontal 1";
     private string jumpAxis = "Jump 1";
     private string lightAttack = "Fire 1";
+    private float moveInput = 0;
+    private bool isAttacking = false;
+
 
     void Start()
     {
@@ -53,13 +58,13 @@ public class PlayerController : MonoBehaviour
     void HandleMovement()
     {
         // Move based off defined axis value (controllers will have a -1 to 1 range)
-        float moveInput = Input.GetAxisRaw(horizontalAxis);
+        moveInput = Input.GetAxisRaw(horizontalAxis);
 
         // Pull the character's unique speed into the equation, turning it into a movement vector
         rb.linearVelocity = new Vector2(moveInput * characterData.moveSpeed, rb.linearVelocity.y);
 
         // Apply the vector
-        if (moveInput != 0)
+        if (moveInput != 0 && !isAttacking)
             transform.localScale = new Vector3(Mathf.Sign(moveInput), 1f, 1f);
     }
 
@@ -78,14 +83,11 @@ public class PlayerController : MonoBehaviour
 
     void HandleAttack()
     {
-        if (Input.GetButtonDown(lightAttack))
+        if (Input.GetButtonDown(lightAttack) && !isAttacking)
         {
-            // Move character forward when doing a light attack
-            rb.linearVelocity = new Vector2(characterData.lightAttackForce, rb.linearVelocity.y);
-            // TODO: Use facing direction over input sign
-            //transform.localScale = new Vector3(Mathf.Sign(moveInput), 1f, 1f);
-
+            isAttacking = true;
             animator.SetTrigger("attackTrigger");
+            StartCoroutine(PerformAttack());
         }
     }
 
@@ -112,4 +114,15 @@ public class PlayerController : MonoBehaviour
         if (spriteRenderer != null && data.idleSprite != null)
             spriteRenderer.sprite = data.idleSprite;
     }
+    
+    private IEnumerator PerformAttack()
+    {
+        yield return StartCoroutine(attackHandler.SlideForwardDuringAttack(characterData.lightAttackForce, characterData.lightAttackDuration));
+
+        // Wait until the animation is done
+        yield return new WaitForSeconds(characterData.lightAttackDuration);
+
+        isAttacking = false;
+    }
+
 }

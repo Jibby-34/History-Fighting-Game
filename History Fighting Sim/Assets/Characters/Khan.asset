@@ -15,6 +15,7 @@ MonoBehaviour:
   characterName: Genghis Khan
   moveSpeed: 2
   jumpForce: 4
-  lightAttackForce: 5
+  lightAttackDuration: 0.3
+  lightAttackForce: 1
   animator: {fileID: 9100000, guid: 4412ff896ac133947b203eca264a21ef, type: 2}
   idleSprite: {fileID: -5454690590052660486, guid: 0c0ad1e34098fdb4581dfdaa58f89806, type: 3}
