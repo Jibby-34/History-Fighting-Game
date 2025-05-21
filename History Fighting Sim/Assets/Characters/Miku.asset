@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d479a0f910e904bb8e448b7427598d, type: 3}
+  m_Name: Miku
+  m_EditorClassIdentifier: 
+  characterName: Hatsune Miku
+  moveSpeed: 5
+  jumpForce: 6
+  animator: {fileID: 9100000, guid: 9b1a79f3303de384f86818c701b99157, type: 2}
+  idleSprite: {fileID: -4285648581210614357, guid: 134a5463747270145a91776d1c6df45f, type: 3}

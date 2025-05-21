@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: aa536f126d450bb49a6356544c321777
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3455589430442207402
+    second: stalinspritesheet-removebg-preview (1)_0
+  - first:
+      213: 4931458471525169462
+    second: stalinspritesheet-removebg-preview (1)_1
+  - first:
+      213: -6385572204141599088
+    second: stalinspritesheet-removebg-preview (1)_2
+  - first:
+      213: -6639322626119077658
+    second: stalinspritesheet-removebg-preview (1)_3
+  - first:
+      213: -1386837672896535207
+    second: stalinspritesheet-removebg-preview (1)_4
+  - first:
+      213: 1916095509691195151
+    second: stalinspritesheet-removebg-preview (1)_5
+  - first:
+      213: -3356360937448080804
+    second: stalinspritesheet-removebg-preview (1)_6
+  - first:
+      213: 1220996356630203841
+    second: stalinspritesheet-removebg-preview (1)_7
+  - first:
+      213: 5252574423631697966
+    second: stalinspritesheet-removebg-preview (1)_8
+  - first:
+      213: -9121916828010479520
+    second: stalinspritesheet-removebg-preview (1)_9
+  - first:
+      213: 7206483584787270747
+    second: stalinspritesheet-removebg-preview (1)_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 340
+        width: 82
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657d5e4b8b74b00d0800000000000000
+      internalID: -3455589430442207402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 340
+        width: 77
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63939d31a5f007440800000000000000
+      internalID: 4931458471525169462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 340
+        width: 77
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096288c99e3e167a0800000000000000
+      internalID: -6385572204141599088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 335
+        width: 82
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e075f88f336cd3a0800000000000000
+      internalID: -6639322626119077658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 87
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9556fd9fb76f0cce0800000000000000
+      internalID: -1386837672896535207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 181
+        width: 78
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f5dd2d6b6579a10800000000000000
+      internalID: 1916095509691195151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 181
+        width: 84
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5af869928fcb61d0800000000000000
+      internalID: -3356360937448080804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 25
+        width: 88
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd4dfc97b9d1f010800000000000000
+      internalID: 1220996356630203841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 26
+        width: 90
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e289ed4eb94e4e840800000000000000
+      internalID: 5252574423631697966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 26
+        width: 133
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06007c399f0786180800000000000000
+      internalID: -9121916828010479520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stalinspritesheet-removebg-preview (1)_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 89
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ccde683a2920460800000000000000
+      internalID: 7206483584787270747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stalinspritesheet-removebg-preview (1)_0: -3455589430442207402
+      stalinspritesheet-removebg-preview (1)_1: 4931458471525169462
+      stalinspritesheet-removebg-preview (1)_10: 7206483584787270747
+      stalinspritesheet-removebg-preview (1)_2: -6385572204141599088
+      stalinspritesheet-removebg-preview (1)_3: -6639322626119077658
+      stalinspritesheet-removebg-preview (1)_4: -1386837672896535207
+      stalinspritesheet-removebg-preview (1)_5: 1916095509691195151
+      stalinspritesheet-removebg-preview (1)_6: -3356360937448080804
+      stalinspritesheet-removebg-preview (1)_7: 1220996356630203841
+      stalinspritesheet-removebg-preview (1)_8: 5252574423631697966
+      stalinspritesheet-removebg-preview (1)_9: -9121916828010479520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

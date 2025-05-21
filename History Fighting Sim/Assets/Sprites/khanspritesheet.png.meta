@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 0c0ad1e34098fdb4581dfdaa58f89806
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5454690590052660486
+    second: khan-removebg-preview_0
+  - first:
+      213: 4810631794504167524
+    second: khan-removebg-preview_1
+  - first:
+      213: 9079184737869306149
+    second: khan-removebg-preview_2
+  - first:
+      213: -2142546111225043838
+    second: khan-removebg-preview_3
+  - first:
+      213: -1187538889405515028
+    second: khan-removebg-preview_4
+  - first:
+      213: -5012279034813292691
+    second: khan-removebg-preview_5
+  - first:
+      213: 1032518213022780784
+    second: khan-removebg-preview_6
+  - first:
+      213: -5821829690724903493
+    second: khan-removebg-preview_7
+  - first:
+      213: -228462861643170879
+    second: khan-removebg-preview_8
+  - first:
+      213: -4861542842823152486
+    second: khan-removebg-preview_9
+  - first:
+      213: 1722517302850725175
+    second: khan-removebg-preview_10
+  - first:
+      213: 512552744147993234
+    second: khan-removebg-preview_11
+  - first:
+      213: -6849823068147352351
+    second: khan-removebg-preview_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: khan-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 318
+        width: 104
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aface3cfecb0d44b0800000000000000
+      internalID: -5454690590052660486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 318
+        width: 103
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460fe98112cc2c240800000000000000
+      internalID: 4810631794504167524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 318
+        width: 102
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52919de5a6ebffd70800000000000000
+      internalID: 9079184737869306149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 318
+        width: 95
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284698dd9a52442e0800000000000000
+      internalID: -2142546111225043838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 161
+        width: 103
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceab5040ca3058fe0800000000000000
+      internalID: -1187538889405515028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 161
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fd0d626cec07ab0800000000000000
+      internalID: -5012279034813292691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 161
+        width: 112
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d085f18dd345e00800000000000000
+      internalID: 1032518213022780784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 12
+        width: 108
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5158dddb4b43fa0800000000000000
+      internalID: -5821829690724903493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 12
+        width: 106
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbb36fdc3654dcf0800000000000000
+      internalID: -228462861643170879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 12
+        width: 170
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cee21ca84588cb0800000000000000
+      internalID: -4861542842823152486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 203
+        width: 29
+        height: 21
+      alignment: 9
+      pivot: {x: 0.64994186, y: 0.38670942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735a1e35c5c97e710800000000000000
+      internalID: 1722517302850725175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 194
+        width: 62
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292c7935104fc1700800000000000000
+      internalID: 512552744147993234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khan-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 165
+        width: 91
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecfcc0263a80f0a0800000000000000
+      internalID: -6849823068147352351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2e14c6fc41a8b904fb76ae5edbba692b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      khan-removebg-preview_0: -5454690590052660486
+      khan-removebg-preview_1: 4810631794504167524
+      khan-removebg-preview_10: 1722517302850725175
+      khan-removebg-preview_11: 512552744147993234
+      khan-removebg-preview_12: -6849823068147352351
+      khan-removebg-preview_2: 9079184737869306149
+      khan-removebg-preview_3: -2142546111225043838
+      khan-removebg-preview_4: -1187538889405515028
+      khan-removebg-preview_5: -5012279034813292691
+      khan-removebg-preview_6: 1032518213022780784
+      khan-removebg-preview_7: -5821829690724903493
+      khan-removebg-preview_8: -228462861643170879
+      khan-removebg-preview_9: -4861542842823152486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
