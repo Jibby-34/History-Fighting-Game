@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
         }
 
         ApplyCharacterData(characterData);
+        SetupHitboxes();
     }
 
     void Update()
@@ -75,7 +76,10 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.flipX = facingDirection == -1;
         }
 
-        hitbox.transform.position = new Vector3(hitbox.transform.position.x*facingDirection, hitbox.transform.position.y, hitbox.transform.position.y);    
+        hitbox.transform.localPosition = new Vector2(
+            characterData.lightAttack.hitboxOffset.x * facingDirection,
+            characterData.lightAttack.hitboxOffset.y
+        );
     }
 
     void HandleJump()
@@ -146,13 +150,11 @@ public class PlayerController : MonoBehaviour
 
     public void EnableHitbox()
     {
-        Debug.Log("Enabled Hitbox");
         hitbox.enabled = true;
     }
 
     public void DisableHitbox()
     {
-        Debug.Log("Disabled Hitbox");
         hitbox.enabled = false;
     }
 
@@ -167,5 +169,10 @@ public class PlayerController : MonoBehaviour
                 health.TakeDamage(characterData.lightAttack.damage);
             }
         }
+    }
+
+    private void SetupHitboxes() {
+        hitbox.transform.localPosition = characterData.lightAttack.hitboxOffset;
+        hitbox.transform.localScale = characterData.lightAttack.hitboxSize;
     }
 }

@@ -15,7 +15,7 @@ MonoBehaviour:
   attackName: BellySmash
   duration: 0.3
   force: 3
-  hitboxOffset: {x: 0, y: 0}
-  hitboxSize: {x: 0, y: 0}
+  hitboxOffset: {x: 0.3243446, y: -0.1208536}
+  hitboxSize: {x: 1.125, y: 0.7222086}
   damage: 18
   attackAnimation: {fileID: 7400000, guid: 9d6e3432a1f8c4c4d9584a812b033037, type: 2}
