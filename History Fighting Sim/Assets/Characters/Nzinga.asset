@@ -15,7 +15,9 @@ MonoBehaviour:
   characterName: Queen Nzinga
   moveSpeed: 5.5
   jumpForce: 7
-  lightAttackDuration: 0.3
-  lightAttackForce: 0.5
-  animator: {fileID: 9100000, guid: 20eaf639240ca5e48af15ed04c52624e, type: 2}
+  health: 100
   idleSprite: {fileID: -2655725358503588489, guid: f751732f8a8c11f4caa39599ba56bcc0, type: 3}
+  animator: {fileID: 9100000, guid: 20eaf639240ca5e48af15ed04c52624e, type: 2}
+  lightAttack: {fileID: 11400000, guid: 880c404754f9f9b448cec8e323f80c72, type: 2}
+  heavyAttack: {fileID: 0}
+  specialAttack: {fileID: 0}

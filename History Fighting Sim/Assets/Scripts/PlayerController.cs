@@ -75,11 +75,7 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.flipX = facingDirection == -1;
         }
 
-
-        // Apply the vector
-        if (moveInput != 0)
-            spriteRenderer.flipX = moveInput < 0;
-
+        hitbox.transform.position = new Vector3(hitbox.transform.position.x*facingDirection, hitbox.transform.position.y, hitbox.transform.position.y);    
     }
 
     void HandleJump()
@@ -150,18 +146,25 @@ public class PlayerController : MonoBehaviour
 
     public void EnableHitbox()
     {
-        hitbox.enabled = hitbox.enabled;
+        Debug.Log("Enabled Hitbox");
+        hitbox.enabled = true;
+    }
+
+    public void DisableHitbox()
+    {
+        Debug.Log("Disabled Hitbox");
+        hitbox.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && other.transform != attacker)
+        if (other.CompareTag("Player") && other.transform != transform)
         {
             HealthManager health = other.GetComponent<HealthManager>();
             
             if (health != null)
             {
-                health.TakeDamage();
+                health.TakeDamage(characterData.lightAttack.damage);
             }
         }
     }
