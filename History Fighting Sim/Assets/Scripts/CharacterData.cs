@@ -6,8 +6,17 @@ public class CharacterData : ScriptableObject
     public string characterName;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
-    public float lightAttackDuration = 1f;
-    public float lightAttackForce = 0;
-    public RuntimeAnimatorController animator;
+    public int health = 100;
+
+    [Header("Visuals")]
     public Sprite idleSprite;
+    public RuntimeAnimatorController animator;
+
+    [Header("Attacks")]
+    public AttackData lightAttack;
+    public AttackData heavyAttack;
+    public AttackData specialAttack;
+    // Or use a list if your attacks are dynamic:
+    // public List<AttackData> attacks;
 }
+

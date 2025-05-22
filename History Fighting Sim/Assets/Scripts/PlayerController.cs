@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     // ScriptableObject containing control and visual info
     public CharacterData characterData;
     public AttackHandler attackHandler;
+    public Collider2D hitbox;
 
     // Double jump avoidance
     [Header("Ground Check")]
@@ -26,8 +27,9 @@ public class PlayerController : MonoBehaviour
     private string horizontalAxis = "Horizontal 1";
     private string jumpAxis = "Jump 1";
     private string lightAttack = "Fire 1";
-    private float moveInput = 0;
+
     private bool isAttacking = false;
+    int facingDirection = 1;
 
 
     void Start()
@@ -57,19 +59,34 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
+        // Cancel movement if attacking
+        if (isAttacking) return;
+
         // Move based off defined axis value (controllers will have a -1 to 1 range)
-        moveInput = Input.GetAxisRaw(horizontalAxis);
+        float moveInput = Input.GetAxisRaw(horizontalAxis);
 
         // Pull the character's unique speed into the equation, turning it into a movement vector
         rb.linearVelocity = new Vector2(moveInput * characterData.moveSpeed, rb.linearVelocity.y);
 
+        // Track the facing direction of the character 
+        if (moveInput != 0)
+        {
+            facingDirection = (int)Mathf.Sign(moveInput);
+            spriteRenderer.flipX = facingDirection == -1;
+        }
+
+
         // Apply the vector
-        if (moveInput != 0 && !isAttacking)
-            transform.localScale = new Vector3(Mathf.Sign(moveInput), 1f, 1f);
+        if (moveInput != 0)
+            spriteRenderer.flipX = moveInput < 0;
+
     }
 
     void HandleJump()
     {
+        // Cancel jump if attacking
+        if (isAttacking) return;
+
         // Do a check in a circular motion from an invisible block at the chracter's feet
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
@@ -86,7 +103,13 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown(lightAttack) && !isAttacking)
         {
             isAttacking = true;
-            animator.SetTrigger("attackTrigger");
+
+            AttackData attack = characterData.lightAttack;
+            if (attack.attackAnimation != null)
+                animator.Play(attack.attackAnimation.name);
+            else
+                animator.SetTrigger("attackTrigger");
+
             StartCoroutine(PerformAttack());
         }
     }
@@ -114,15 +137,32 @@ public class PlayerController : MonoBehaviour
         if (spriteRenderer != null && data.idleSprite != null)
             spriteRenderer.sprite = data.idleSprite;
     }
-    
+
     private IEnumerator PerformAttack()
     {
-        yield return StartCoroutine(attackHandler.SlideForwardDuringAttack(characterData.lightAttackForce, characterData.lightAttackDuration));
+        yield return StartCoroutine(attackHandler.SlideForwardDuringAttack(characterData.lightAttack.force, characterData.lightAttack.duration, facingDirection));
 
         // Wait until the animation is done
-        yield return new WaitForSeconds(characterData.lightAttackDuration);
+        yield return new WaitForSeconds(characterData.lightAttack.duration);
 
         isAttacking = false;
     }
 
+    public void EnableHitbox()
+    {
+        hitbox.enabled = hitbox.enabled;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && other.transform != attacker)
+        {
+            HealthManager health = other.GetComponent<HealthManager>();
+            
+            if (health != null)
+            {
+                health.TakeDamage();
+            }
+        }
+    }
 }
