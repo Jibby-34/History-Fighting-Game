@@ -15,7 +15,7 @@ MonoBehaviour:
   attackName: Spear Stab
   duration: 0.3
   force: 0.6
-  hitboxOffset: {x: 0, y: 0}
-  hitboxSize: {x: 0, y: 0}
+  hitboxOffset: {x: 0.3, y: -0.166}
+  hitboxSize: {x: 1, y: 0.568337}
   damage: 10
   attackAnimation: {fileID: 7400000, guid: 605ceb5bb3a0f9f4cbab6c4a6dc4c983, type: 2}

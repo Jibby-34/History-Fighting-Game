@@ -15,7 +15,7 @@ C:/Users/bob/Desktop/History-Fighting-Game/History Fighting Sim
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49961
+54330
 -job-worker-count
 1
 -background-job-worker-count
@@ -59,12 +59,14 @@ C:/Users/bob/Desktop/History-Fighting-Game/History Fighting Sim
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12996]  Target information:
+Player connection [16028]  Target information:
 
-Player connection [12996]  * "[IP] 26.40.25.52 [Port] 0 [Flags] 2 [Guid] 1819771848 [EditorId] 1819771848 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ALTQ3H1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16028]  * "[IP] 26.40.25.52 [Port] 0 [Flags] 2 [Guid] 73885253 [EditorId] 73885253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ALTQ3H1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [12996] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [12996] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16028]  * "[IP] 10.64.60.94 [Port] 0 [Flags] 2 [Guid] 73885253 [EditorId] 73885253 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ALTQ3H1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16028] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16028] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 21.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
@@ -92,46 +94,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010426 seconds.
-- Loaded All Assemblies, in  1.369 seconds
+Registered in 0.018801 seconds.
+- Loaded All Assemblies, in  1.940 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.290 seconds
-Domain Reload Profiling: 2650ms
-	BeginReloadAssembly (566ms)
+- Finished resetting the current domain, in  1.527 seconds
+Domain Reload Profiling: 3459ms
+	BeginReloadAssembly (875ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (6ms)
-	RebuildCommonClasses (113ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (158ms)
-	LoadAllAssembliesAndSetupDomain (487ms)
-		LoadAssemblies (549ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (143ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (240ms)
+	LoadAllAssembliesAndSetupDomain (638ms)
+		LoadAssemblies (866ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (474ms)
-			TypeCache.Refresh (469ms)
-				TypeCache.ScanAssembly (433ms)
+		AnalyzeDomain (627ms)
+			TypeCache.Refresh (625ms)
+				TypeCache.ScanAssembly (586ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1291ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1528ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1132ms)
+		SetupLoadedEditorAssemblies (1368ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (71ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (18ms)
-			ProcessInitializeOnLoadAttributes (699ms)
-			ProcessInitializeOnLoadMethodAttributes (318ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (827ms)
+			ProcessInitializeOnLoadMethodAttributes (454ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,116 +141,208 @@ Domain Reload Profiling: 2650ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  6.614 seconds
-Refreshing native plugins compatible for Editor in 5.08 ms, found 4 plugins.
+- Loaded All Assemblies, in  8.069 seconds
+Refreshing native plugins compatible for Editor in 20.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.278 seconds
-Domain Reload Profiling: 9840ms
-	BeginReloadAssembly (3076ms)
+- Finished resetting the current domain, in  8.867 seconds
+Domain Reload Profiling: 16927ms
+	BeginReloadAssembly (5233ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
+		DisableScriptedObjects (29ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (208ms)
-	RebuildCommonClasses (806ms)
-	RebuildNativeTypeToScriptingClass (121ms)
-	initialDomainReloadingComplete (396ms)
-	LoadAllAssembliesAndSetupDomain (2162ms)
-		LoadAssemblies (2258ms)
+		CreateAndSetChildDomain (317ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (2598ms)
+		LoadAssemblies (1741ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (899ms)
-			TypeCache.Refresh (608ms)
-				TypeCache.ScanAssembly (562ms)
-			BuildScriptInfoCaches (253ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (3279ms)
+		AnalyzeDomain (1189ms)
+			TypeCache.Refresh (867ms)
+				TypeCache.ScanAssembly (788ms)
+			BuildScriptInfoCaches (292ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (8867ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2563ms)
+		SetupLoadedEditorAssemblies (5511ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (296ms)
-			ProcessInitializeOnLoadAttributes (1874ms)
-			ProcessInitializeOnLoadMethodAttributes (353ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (26ms)
+			BeforeProcessingInitializeOnLoad (341ms)
+			ProcessInitializeOnLoadAttributes (2746ms)
+			ProcessInitializeOnLoadMethodAttributes (2184ms)
+			AfterProcessingInitializeOnLoad (202ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
+		AwakeInstancesAfterBackupRestoration (128ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 47.08 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6561 unused Assets / (5.7 MB). Loaded Objects now: 7353.
-Memory consumption went from 195.6 MB to 189.9 MB.
-Total: 19.543900 ms (FindLiveObjects: 1.146800 ms CreateObjectMapping: 1.188000 ms MarkObjects: 12.604100 ms  DeleteObjects: 4.603300 ms)
+Unloading 6560 unused Assets / (2.1 MB). Loaded Objects now: 7352.
+Memory consumption went from 195.7 MB to 193.5 MB.
+Total: 96.796300 ms (FindLiveObjects: 5.469000 ms CreateObjectMapping: 11.159400 ms MarkObjects: 62.536800 ms  DeleteObjects: 17.625900 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.512 seconds
-Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.112 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.408 seconds
-Domain Reload Profiling: 5920ms
-	BeginReloadAssembly (382ms)
+- Finished resetting the current domain, in  3.749 seconds
+Domain Reload Profiling: 5842ms
+	BeginReloadAssembly (526ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
+		DisableScriptedObjects (37ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (979ms)
-		LoadAssemblies (688ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (1280ms)
+		LoadAssemblies (1086ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (480ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (494ms)
+			TypeCache.Refresh (12ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (440ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (4411ms)
+			BuildScriptInfoCaches (453ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3750ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2673ms)
+		SetupLoadedEditorAssemblies (2852ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (303ms)
-			ProcessInitializeOnLoadAttributes (2038ms)
-			ProcessInitializeOnLoadMethodAttributes (223ms)
-			AfterProcessingInitializeOnLoad (82ms)
-			EditorAssembliesLoaded (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (276ms)
+			ProcessInitializeOnLoadAttributes (2251ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (135ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 16.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 76.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6559 unused Assets / (4.3 MB). Loaded Objects now: 7356.
-Memory consumption went from 161.1 MB to 156.8 MB.
-Total: 27.519100 ms (FindLiveObjects: 3.185100 ms CreateObjectMapping: 2.729300 ms MarkObjects: 13.827700 ms  DeleteObjects: 7.772600 ms)
+Unloading 6558 unused Assets / (2.1 MB). Loaded Objects now: 7355.
+Memory consumption went from 161.2 MB to 159.1 MB.
+Total: 121.264000 ms (FindLiveObjects: 3.457000 ms CreateObjectMapping: 4.275200 ms MarkObjects: 86.545800 ms  DeleteObjects: 26.981100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 309.715298 seconds.
-  path: Assets/Attacks
-  artifactKey: Guid(ba0172b575146a447901540acc98a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attacks using Guid(ba0172b575146a447901540acc98a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '588296bdccff2e26c3122e40a038bafb') in 0.0217445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.930810 seconds.
+  Time since last request: 33683.337712 seconds.
   path: Assets/Attacks/SpearStab.asset
   artifactKey: Guid(880c404754f9f9b448cec8e323f80c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Attacks/SpearStab.asset using Guid(880c404754f9f9b448cec8e323f80c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b918c4453c5310158dadda814a14ff8') in 0.0374356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Start importing Assets/Attacks/SpearStab.asset using Guid(880c404754f9f9b448cec8e323f80c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '146d10b3c745069eba7aa77a3a6c4182') in 0.2183678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.937 seconds
+Refreshing native plugins compatible for Editor in 7.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.100 seconds
+Domain Reload Profiling: 9034ms
+	BeginReloadAssembly (453ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1297ms)
+		LoadAssemblies (902ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (636ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (591ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (7101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (41ms)
+			BeforeProcessingInitializeOnLoad (1512ms)
+			ProcessInitializeOnLoadAttributes (3679ms)
+			ProcessInitializeOnLoadMethodAttributes (324ms)
+			AfterProcessingInitializeOnLoad (47ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (63ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 15.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6558 unused Assets / (3.6 MB). Loaded Objects now: 7360.
+Memory consumption went from 161.7 MB to 158.2 MB.
+Total: 44.563100 ms (FindLiveObjects: 4.776200 ms CreateObjectMapping: 2.936200 ms MarkObjects: 22.199900 ms  DeleteObjects: 14.647900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.040 seconds
+Refreshing native plugins compatible for Editor in 8.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.788 seconds
+Domain Reload Profiling: 7778ms
+	BeginReloadAssembly (1507ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (417ms)
+	RebuildNativeTypeToScriptingClass (139ms)
+	initialDomainReloadingComplete (258ms)
+	LoadAllAssembliesAndSetupDomain (1669ms)
+		LoadAssemblies (2450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (520ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (481ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (29ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (1734ms)
+			ProcessInitializeOnLoadMethodAttributes (342ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (70ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 49.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6558 unused Assets / (3.4 MB). Loaded Objects now: 7362.
+Memory consumption went from 161.7 MB to 158.3 MB.
+Total: 47.271700 ms (FindLiveObjects: 1.606200 ms CreateObjectMapping: 6.940500 ms MarkObjects: 18.078400 ms  DeleteObjects: 20.644600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
