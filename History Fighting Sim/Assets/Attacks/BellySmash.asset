@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackName: BellySmash
   duration: 0.3
-  force: 3
+  force: 2
   hitboxOffset: {x: 0.3243446, y: -0.1208536}
   hitboxSize: {x: 1.125, y: 0.7222086}
   damage: 18

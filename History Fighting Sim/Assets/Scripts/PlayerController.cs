@@ -150,11 +150,13 @@ public class PlayerController : MonoBehaviour
 
     public void EnableHitbox()
     {
+        Debug.Log("ENABLED " + characterData.name + "'s hitbox\n" + System.Environment.StackTrace);        
         hitbox.enabled = true;
     }
 
     public void DisableHitbox()
     {
+        Debug.Log("DISABLED " + characterData.name + "'s hitbox");
         hitbox.enabled = false;
     }
 
