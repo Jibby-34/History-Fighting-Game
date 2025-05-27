@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackName: Spear Stab
   duration: 0.3
-  force: 0.6
+  force: 0
   hitboxOffset: {x: 0.3, y: -0.166}
   hitboxSize: {x: 1, y: 0.568337}
   damage: 10

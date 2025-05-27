@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private bool isAttacking = false;
     int facingDirection = 1;
 
+    public KnockbackHandler knockBackhandler;
+
 
     void Start()
     {
@@ -150,7 +152,7 @@ public class PlayerController : MonoBehaviour
 
     public void EnableHitbox()
     {
-        Debug.Log("ENABLED " + characterData.name + "'s hitbox\n" + System.Environment.StackTrace);        
+        Debug.Log("ENABLED " + characterData.name + "'s hitbox\n" + System.Environment.StackTrace);
         hitbox.enabled = true;
     }
 
@@ -165,7 +167,13 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Player") && other.transform != transform)
         {
             HealthManager health = other.GetComponent<HealthManager>();
-            
+            KnockbackHandler knockbackHandler = other.GetComponent<KnockbackHandler>();
+
+            if (knockbackHandler != null)
+            {
+                knockbackHandler.ApplyKnockback(gameObject.transform);
+            }
+
             if (health != null)
             {
                 health.TakeDamage(characterData.lightAttack.damage);
@@ -173,8 +181,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void SetupHitboxes() {
+    private void SetupHitboxes()
+    {
         hitbox.transform.localPosition = characterData.lightAttack.hitboxOffset;
         hitbox.transform.localScale = characterData.lightAttack.hitboxSize;
     }
+
 }
