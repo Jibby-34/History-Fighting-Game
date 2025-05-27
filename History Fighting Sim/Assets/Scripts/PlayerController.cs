@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        rb.linearDamping = 0f;
 
         // Change controls if player 2
         if (playerId == 2)
@@ -65,6 +66,16 @@ public class PlayerController : MonoBehaviour
         // Cancel movement if attacking
         if (isAttacking) return;
 
+        if (knockBackhandler.knockbackTimer < 0.05)
+        {
+            //rb.linearVelocity = new Vector2();
+        }
+        else if (knockBackhandler.knockbackTimer > 0)
+        {
+            knockBackhandler.knockbackTimer = knockBackhandler.knockbackTimer - Time.deltaTime;
+            return;
+        }
+
         // Move based off defined axis value (controllers will have a -1 to 1 range)
         float moveInput = Input.GetAxisRaw(horizontalAxis);
 
@@ -83,6 +94,7 @@ public class PlayerController : MonoBehaviour
             characterData.lightAttack.hitboxOffset.y
         );
     }
+
 
     void HandleJump()
     {
@@ -152,13 +164,11 @@ public class PlayerController : MonoBehaviour
 
     public void EnableHitbox()
     {
-        Debug.Log("ENABLED " + characterData.name + "'s hitbox\n" + System.Environment.StackTrace);
         hitbox.enabled = true;
     }
 
     public void DisableHitbox()
     {
-        Debug.Log("DISABLED " + characterData.name + "'s hitbox");
         hitbox.enabled = false;
     }
 
@@ -171,7 +181,10 @@ public class PlayerController : MonoBehaviour
 
             if (knockbackHandler != null)
             {
-                knockbackHandler.ApplyKnockback(gameObject.transform);
+                knockbackHandler.ApplyKnockback(gameObject.transform,
+                    characterData.lightAttack.launchAngle,
+                    characterData.lightAttack.delayTime,
+                    characterData.lightAttack.knockbackForce);
             }
 
             if (health != null)
