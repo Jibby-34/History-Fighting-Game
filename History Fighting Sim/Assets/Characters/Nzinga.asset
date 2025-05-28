@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nzinga
   m_EditorClassIdentifier: 
   characterName: Queen Nzinga
-  moveSpeed: 5.5
+  moveSpeed: 6.5
   jumpForce: 7
   health: 100
   idleSprite: {fileID: -2655725358503588489, guid: f751732f8a8c11f4caa39599ba56bcc0, type: 3}
