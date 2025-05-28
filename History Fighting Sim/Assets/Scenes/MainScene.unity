@@ -667,6 +667,7 @@ GameObject:
   - component: {fileID: 956627681}
   - component: {fileID: 956627682}
   - component: {fileID: 956627683}
+  - component: {fileID: 956627684}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -862,6 +863,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   playerId: 1
+  knockBackhandler: {fileID: 956627684}
 --- !u!114 &956627682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,6 +892,20 @@ MonoBehaviour:
   fillImage: {fileID: 816038332}
   width: 200
   height: 25
+--- !u!114 &956627684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956627675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b293bfb83e1b0b3489997e9a860603c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 956627679}
+  knockbackTimer: 0
 --- !u!1 &958850487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1600,7 @@ GameObject:
   - component: {fileID: 2069085028}
   - component: {fileID: 2069085034}
   - component: {fileID: 2069085035}
+  - component: {fileID: 2069085036}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -1612,6 +1629,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   playerId: 2
+  knockBackhandler: {fileID: 2069085036}
 --- !u!61 &2069085029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1807,6 +1825,20 @@ MonoBehaviour:
   fillImage: {fileID: 230925663}
   width: 200
   height: 25
+--- !u!114 &2069085036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069085027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b293bfb83e1b0b3489997e9a860603c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2069085030}
+  knockbackTimer: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
