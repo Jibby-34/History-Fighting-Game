@@ -5,8 +5,8 @@ using System.Collections;
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
-    // ScriptableObject containing control and visual info
-    public CharacterData characterData;
+    private CharacterData characterData;
+    public SelectedCharacter selectedCharacter;
     public AttackHandler attackHandler;
     public Collider2D hitbox;
 
@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb.linearDamping = 0f;
+        characterData = selectedCharacter.selectedCharacter;
 
         // Change controls if player 2
         if (playerId == 2)

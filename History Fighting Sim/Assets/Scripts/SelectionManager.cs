@@ -1,6 +1,7 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class SelectionManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class SelectionManager : MonoBehaviour
     public TextMeshProUGUI player2Ready;
     bool player1Selected = false;
     bool player2Selected = false;
+    public SelectedCharacter player1SelectedCharacter;
+    public SelectedCharacter player2SelectedCharacter;
 
     void Start()
     {
@@ -92,14 +95,21 @@ public class SelectionManager : MonoBehaviour
         if (player == 1)
         {
             player1Ready.text = "Ready";
-            player1Ready.color = new Color(0.217556f, 0.9372549f, 0.1607843f); 
+            player1Ready.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
+            player1SelectedCharacter.selectedCharacter = characters[index];
             player1Selected = true;
         }
         else
         {
             player2Ready.text = "Ready";
-            player2Ready.color = new Color(0.217556f, 0.9372549f, 0.1607843f); 
+            player2Ready.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
+            player2SelectedCharacter.selectedCharacter = characters[index];
             player2Selected = true;
+        }
+
+        if (player1Selected && player2Selected)
+        {
+            SceneManager.LoadScene("MainScene");
         }
     }
     

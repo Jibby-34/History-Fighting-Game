@@ -854,7 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e34f36e5ff49a4ab0a1958ffd1bdd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData: {fileID: 11400000, guid: 28373a8d3bc1e48448ef05d9e88f27e3, type: 2}
+  selectedCharacter: {fileID: 11400000, guid: d2cdf8ea7a2f6e74b813bfcef10f35bf, type: 2}
   attackHandler: {fileID: 956627682}
   hitbox: {fileID: 1034614064}
   groundCheck: {fileID: 402483218}
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83b03f5cbc58e64a954c6a4510ca165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData: {fileID: 11400000, guid: 28373a8d3bc1e48448ef05d9e88f27e3, type: 2}
+  selectedCharacter: {fileID: 11400000, guid: d2cdf8ea7a2f6e74b813bfcef10f35bf, type: 2}
   fillImage: {fileID: 816038332}
   width: 200
   height: 25
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e34f36e5ff49a4ab0a1958ffd1bdd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData: {fileID: 11400000, guid: 6f216fe4419029f419c4f154906aea2c, type: 2}
+  selectedCharacter: {fileID: 11400000, guid: 5acca33a68df6b04a8bc1948e3c2579a, type: 2}
   attackHandler: {fileID: 2069085034}
   hitbox: {fileID: 1926965321}
   groundCheck: {fileID: 1882736017}
@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83b03f5cbc58e64a954c6a4510ca165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData: {fileID: 11400000, guid: 6f216fe4419029f419c4f154906aea2c, type: 2}
+  selectedCharacter: {fileID: 11400000, guid: 5acca33a68df6b04a8bc1948e3c2579a, type: 2}
   fillImage: {fileID: 230925663}
   width: 200
   height: 25

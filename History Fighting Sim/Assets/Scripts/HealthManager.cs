@@ -3,7 +3,8 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    public CharacterData characterData;
+    private CharacterData characterData;
+    public SelectedCharacter selectedCharacter;
     private int health;
     public RectTransform fillImage;
     public int width = 200;
@@ -12,6 +13,7 @@ public class HealthManager : MonoBehaviour
     void Start()
     {
         health = characterData.health;
+        characterData = selectedCharacter.selectedCharacter;
         UpdateHealthBar();
     }
 
