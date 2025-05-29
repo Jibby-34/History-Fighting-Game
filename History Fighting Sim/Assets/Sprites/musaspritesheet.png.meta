@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: 134a5463747270145a91776d1c6df45f
+guid: 789c421155d85ef4d95dc5f9457a1979
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1494208333133261970
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_0
-  - first:
-      213: 2448005205572673474
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_1
-  - first:
-      213: -6353895788559832160
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_2
-  - first:
-      213: -4101678405707297123
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_3
-  - first:
-      213: -4285648581210614357
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_4
-  - first:
-      213: 8212278073136480283
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_5
-  - first:
-      213: -6261301685438914824
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_6
-  - first:
-      213: 7915595004115607288
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_7
-  - first:
-      213: 8547183031878671753
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_8
-  - first:
-      213: -3097709125400921357
-    second: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_9
+      213: 2478778917607479135
+    second: Mansa Musa Sprite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 220
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,33 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -153,122 +100,56 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_0
+      name: Mansa Musa Sprite_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 647
-        width: 283
-        height: 338
+        x: 71
+        y: 652
+        width: 193
+        height: 312
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e63d92b0071834be0800000000000000
-      internalID: -1494208333133261970
+      spriteID: f5798bcda44666220800000000000000
+      internalID: 2478778917607479135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_1
+      name: musaspritesheet_0
       rect:
         serializedVersion: 2
-        x: 294
-        y: 647
-        width: 251
-        height: 338
+        x: 310
+        y: 655
+        width: 189
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2cf577ea3cf09f120800000000000000
-      internalID: 2448005205572673474
+      spriteID: 43065b2ac57fb0d43a24ed43296b2d35
+      internalID: -192555283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_2
+      name: musaspritesheet_1
       rect:
         serializedVersion: 2
-        x: 539
-        y: 646
-        width: 254
-        height: 339
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ab6a07d17d62d7a0800000000000000
-      internalID: -6353895788559832160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_3
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 647
-        width: 227
-        height: 338
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9e0decb839e317c0800000000000000
-      internalID: -4101678405707297123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_4
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 279
-        width: 242
-        height: 317
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba5d8cc52515684c0800000000000000
-      internalID: -4285648581210614357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_5
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 303
-        width: 258
+        x: 560
+        y: 654
+        width: 171
         height: 308
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -276,98 +157,186 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b108702a56fd7f170800000000000000
-      internalID: 8212278073136480283
+      spriteID: 2fe14b65ff4b0054ba0b2903fea2bd8f
+      internalID: -2007192643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_6
+      name: musaspritesheet_2
       rect:
         serializedVersion: 2
-        x: 623
-        y: 279
-        width: 361
-        height: 330
+        x: 780
+        y: 653
+        width: 184
+        height: 317
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fedbd77a436b19a0800000000000000
-      internalID: -6261301685438914824
+      spriteID: b875dec1fc754fb4992df3ed011679cc
+      internalID: -303964267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_7
+      name: musaspritesheet_3
       rect:
         serializedVersion: 2
-        x: 36
+        x: 57
+        y: 308
+        width: 193
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbce599b413544439b56f4ef396c4df
+      internalID: -1988901308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musaspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 306
+        width: 186
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab6db775bf13c4cb29f8141916574f
+      internalID: 1218151099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musaspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 306
+        width: 384
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01861477584dc344e8f827f313087b48
+      internalID: 719461218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musaspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 45
         y: 0
-        width: 245
-        height: 258
+        width: 244
+        height: 274
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8feda26b7b7d9dd60800000000000000
-      internalID: 7915595004115607288
+      spriteID: 38332669cfa0faa4da3deb643e443120
+      internalID: 1767387497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_8
+      name: musaspritesheet_7
       rect:
         serializedVersion: 2
-        x: 311
+        x: 290
         y: 0
-        width: 282
-        height: 257
+        width: 191
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98ddf5dbea1bd9670800000000000000
-      internalID: 8547183031878671753
+      spriteID: 919c40da1d24e344289c36d102a6495c
+      internalID: -1387105554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7e661e25-071d-4d06-8c37-f5ce4a357d8c_9
+      name: musaspritesheet_8
       rect:
         serializedVersion: 2
-        x: 607
+        x: 511
         y: 0
-        width: 330
-        height: 258
+        width: 313
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3fafdfa76f9b205d0800000000000000
-      internalID: -3097709125400921357
+      spriteID: 023d8863b7d0e564490e65054f312842
+      internalID: 79234811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musaspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 74
+        width: 103
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445fe8a3ec064d4ea9a17c90c34d459
+      internalID: 745695289
       vertices: []
       indices: 
       edges: []
@@ -376,7 +345,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0fe8920bf78443c47b23d0336faa7c55
     internalID: 0
     vertices: []
     indices: 
@@ -386,16 +355,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_0: -1494208333133261970
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_1: 2448005205572673474
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_2: -6353895788559832160
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_3: -4101678405707297123
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_4: -4285648581210614357
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_5: 8212278073136480283
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_6: -6261301685438914824
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_7: 7915595004115607288
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_8: 8547183031878671753
-      7e661e25-071d-4d06-8c37-f5ce4a357d8c_9: -3097709125400921357
+      Mansa Musa Sprite_0: 2478778917607479135
+      musaspritesheet_0: -192555283
+      musaspritesheet_1: -2007192643
+      musaspritesheet_2: -303964267
+      musaspritesheet_3: -1988901308
+      musaspritesheet_4: 1218151099
+      musaspritesheet_5: 719461218
+      musaspritesheet_6: 1767387497
+      musaspritesheet_7: -1387105554
+      musaspritesheet_8: 79234811
+      musaspritesheet_9: 745695289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 1dc6bcc1e09b86e4d8629c883836b8c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3719973217296364071
+    second: Jesus Sprite_0
+  - first:
+      213: -6159879594555078149
+    second: Jesus Sprite_1
+  - first:
+      213: -4197437336974572626
+    second: Jesus Sprite_2
+  - first:
+      213: -8127375322286216089
+    second: Jesus Sprite_3
+  - first:
+      213: 4970650598566959358
+    second: Jesus Sprite_4
+  - first:
+      213: 5864593903735825903
+    second: Jesus Sprite_5
+  - first:
+      213: -5385694441098379588
+    second: Jesus Sprite_6
+  - first:
+      213: -4714449075707994741
+    second: Jesus Sprite_7
+  - first:
+      213: 8852155565898819336
+    second: Jesus Sprite_8
+  - first:
+      213: -2402080316921410684
+    second: Jesus Sprite_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jesus Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 623
+        width: 184
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722baee8eefff9330800000000000000
+      internalID: 3719973217296364071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 625
+        width: 183
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf90e5b2526b38aa0800000000000000
+      internalID: -6159879594555078149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 623
+        width: 196
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea34ba22bf4bfb5c0800000000000000
+      internalID: -4197437336974572626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 623
+        width: 210
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76caade7433c53f80800000000000000
+      internalID: -8127375322286216089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 272
+        width: 198
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef89a2e326c4bf440800000000000000
+      internalID: 4970650598566959358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 279
+        width: 250
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe568106519336150800000000000000
+      internalID: 5864593903735825903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 279
+        width: 306
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbef881c07b2245b0800000000000000
+      internalID: -5385694441098379588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 203
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d91ca3b89e29eb0800000000000000
+      internalID: -4714449075707994741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 202
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80765e1269c29da70800000000000000
+      internalID: 8852155565898819336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jesus Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 306
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b01f3bda81aaed0800000000000000
+      internalID: -2402080316921410684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b8980bc3a1c3193438c6b3c9477b40a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jesus Sprite_0: 3719973217296364071
+      Jesus Sprite_1: -6159879594555078149
+      Jesus Sprite_2: -4197437336974572626
+      Jesus Sprite_3: -8127375322286216089
+      Jesus Sprite_4: 4970650598566959358
+      Jesus Sprite_5: 5864593903735825903
+      Jesus Sprite_6: -5385694441098379588
+      Jesus Sprite_7: -4714449075707994741
+      Jesus Sprite_8: 8852155565898819336
+      Jesus Sprite_9: -2402080316921410684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
