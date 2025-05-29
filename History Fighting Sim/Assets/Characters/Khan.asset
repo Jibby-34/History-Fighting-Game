@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Khan
   m_EditorClassIdentifier: 
   characterName: Genghis Khan
-  moveSpeed: 3.5
+  moveSpeed: 4.8
   jumpForce: 6
   health: 150
   idleSprite: {fileID: -5454690590052660486, guid: 0c0ad1e34098fdb4581dfdaa58f89806, type: 3}

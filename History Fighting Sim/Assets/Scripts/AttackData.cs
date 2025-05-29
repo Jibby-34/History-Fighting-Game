@@ -8,6 +8,9 @@ public class AttackData : ScriptableObject
     [Header("Timing & Force")]
     public float duration = 1f;
     public float force = 0f;
+    public float knockbackForce = 10f;
+    public float launchAngle = 45f;
+    public float delayTime = 1;
 
     [Header("Hitbox")]
     public Vector2 hitboxOffset;

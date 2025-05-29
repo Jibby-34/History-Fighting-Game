@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4f3bfd3ad92354d8c12597220a56a9, type: 3}
   m_Name: BellySmash
   m_EditorClassIdentifier: 
-  attackName: BellySmash
+  attackName: Belly Smash
   duration: 0.3
-  force: 3
-  hitboxOffset: {x: 0, y: 0}
-  hitboxSize: {x: 0, y: 0}
+  force: 0.8
+  knockbackForce: 5
+  launchAngle: 70
+  delayTime: 1
+  hitboxOffset: {x: 0.3243446, y: -0.1208536}
+  hitboxSize: {x: 1.125, y: 0.7222086}
   damage: 18
   attackAnimation: {fileID: 7400000, guid: 9d6e3432a1f8c4c4d9584a812b033037, type: 2}
