@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: bc84d3b7e9e95f54baeffa68dd20204f
+guid: 164207e2516cae4408d6348eccf9cec6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3719973217296364071
-    second: Jesus Sprite_0
-  - first:
-      213: -6159879594555078149
-    second: Jesus Sprite_1
-  - first:
-      213: -4197437336974572626
-    second: Jesus Sprite_2
-  - first:
-      213: -8127375322286216089
-    second: Jesus Sprite_3
-  - first:
-      213: 4970650598566959358
-    second: Jesus Sprite_4
-  - first:
-      213: 5864593903735825903
-    second: Jesus Sprite_5
-  - first:
-      213: -5385694441098379588
-    second: Jesus Sprite_6
-  - first:
-      213: -4714449075707994741
-    second: Jesus Sprite_7
-  - first:
-      213: 8852155565898819336
-    second: Jesus Sprite_8
-  - first:
-      213: -2402080316921410684
-    second: Jesus Sprite_9
+      213: 2478778917607479135
+    second: Mansa Musa Sprite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,100 +100,144 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jesus Sprite_0
+      name: Mansa Musa Sprite_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 623
-        width: 184
-        height: 308
+        x: 68
+        y: 653
+        width: 194
+        height: 310
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 722baee8eefff9330800000000000000
-      internalID: 3719973217296364071
+      spriteID: f5798bcda44666220800000000000000
+      internalID: 2478778917607479135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_1
+      name: mansamusasprites_0
       rect:
         serializedVersion: 2
-        x: 259
-        y: 623
-        width: 211
-        height: 396
+        x: 315
+        y: 654
+        width: 181
+        height: 311
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bf90e5b2526b38aa0800000000000000
-      internalID: -6159879594555078149
+      spriteID: 023cc7fbf93dad44a8b66ec54b8dbf51
+      internalID: -1008324655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_2
+      name: mansamusasprites_1
       rect:
         serializedVersion: 2
-        x: 509
-        y: 623
-        width: 196
-        height: 308
+        x: 560
+        y: 654
+        width: 173
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea34ba22bf4bfb5c0800000000000000
-      internalID: -4197437336974572626
+      spriteID: bbbf34553736acd4e9a20d07c13d9083
+      internalID: 294762630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_3
+      name: mansamusasprites_2
       rect:
         serializedVersion: 2
-        x: 767
-        y: 623
-        width: 210
-        height: 308
+        x: 780
+        y: 654
+        width: 179
+        height: 311
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76caade7433c53f80800000000000000
-      internalID: -8127375322286216089
+      spriteID: fd2f080774f75e342b3c0142b473accb
+      internalID: -1370305803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_4
+      name: mansamusasprites_3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 272
-        width: 227
+        x: 60
+        y: 311
+        width: 191
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a1a8a9e169fd4e91dd29c88a4da6a
+      internalID: 817966755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 311
+        width: 186
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79718cbcf738ac54888cfb816c83aa2f
+      internalID: -728777574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 308
+        width: 373
         height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -228,120 +245,76 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef89a2e326c4bf440800000000000000
-      internalID: 4970650598566959358
+      spriteID: 4072bf576340eab40a109b394fc8c9d8
+      internalID: -2126074490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_5
+      name: mansamusasprites_6
       rect:
         serializedVersion: 2
-        x: 375
-        y: 279
-        width: 250
-        height: 322
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe568106519336150800000000000000
-      internalID: 5864593903735825903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jesus Sprite_6
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 279
-        width: 306
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbef881c07b2245b0800000000000000
-      internalID: -5385694441098379588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jesus Sprite_7
-      rect:
-        serializedVersion: 2
-        x: 107
+        x: 46
         y: 0
-        width: 203
-        height: 248
+        width: 239
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8d91ca3b89e29eb0800000000000000
-      internalID: -4714449075707994741
+      spriteID: f7dff023000166241acb375419d7eace
+      internalID: 110088815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_8
+      name: mansamusasprites_7
       rect:
         serializedVersion: 2
-        x: 391
+        x: 294
         y: 0
-        width: 202
-        height: 248
+        width: 182
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80765e1269c29da70800000000000000
-      internalID: 8852155565898819336
+      spriteID: e3186af0b98562e499d1d9e4c36bc00d
+      internalID: -2062048324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jesus Sprite_9
+      name: mansamusasprites_8
       rect:
         serializedVersion: 2
-        x: 663
+        x: 525
         y: 0
-        width: 306
-        height: 232
+        width: 422
+        height: 269
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48b01f3bda81aaed0800000000000000
-      internalID: -2402080316921410684
+      spriteID: 5ae7da688bb47f44b9b97bb07f6e32b8
+      internalID: -107588879
       vertices: []
       indices: 
       edges: []
@@ -350,7 +323,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6bfa59b847c596c408e4b8e46145edca
     internalID: 0
     vertices: []
     indices: 
@@ -359,7 +332,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mansa Musa Sprite_0: 2478778917607479135
+      mansamusasprites_0: -1008324655
+      mansamusasprites_1: 294762630
+      mansamusasprites_2: -1370305803
+      mansamusasprites_3: 817966755
+      mansamusasprites_4: -728777574
+      mansamusasprites_5: -2126074490
+      mansamusasprites_6: 110088815
+      mansamusasprites_7: -2062048324
+      mansamusasprites_8: -107588879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

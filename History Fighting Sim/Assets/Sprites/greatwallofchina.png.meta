@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d616e2f217d71f04fb5af6f1d6b23152
+guid: 0fb5300e0e1a2f942bb8d425f840d6ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6953374275325085549
-    second: Heimler Sprite_0
+      213: 5298590674072725027
+    second: greatwallofchina_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heimler Sprite_0
+      name: greatwallofchina_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
+        width: 1536
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 398b8e8efe6a08f90800000000000000
-      internalID: -6953374275325085549
+      spriteID: 3266d4a1520688940800000000000000
+      internalID: 5298590674072725027
       vertices: []
       indices: 
       edges: []
