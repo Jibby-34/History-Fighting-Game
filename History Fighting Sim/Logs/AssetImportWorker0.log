@@ -3027,3 +3027,59 @@ Received Import Request.
 Start importing Assets/Stages/nomanslandbackground.png using Guid(91aaa1c066736cf4383717793f6a8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5148b6fec8fb470bf71a7bd3042420') in 0.0426063 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 380.470732 seconds.
+  path: Assets/Sprites/georgewashingtonsprites.png
+  artifactKey: Guid(e9a1bdb0cb3245141a4b3c6063585d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/georgewashingtonsprites.png using Guid(e9a1bdb0cb3245141a4b3c6063585d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b934620d555a0035533316a05ad4ff5') in 0.1563673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/jesussprites.png
+  artifactKey: Guid(bc84d3b7e9e95f54baeffa68dd20204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/jesussprites.png using Guid(bc84d3b7e9e95f54baeffa68dd20204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e759057b47eba342eaff720d784ed74b') in 0.1686221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/mansamusasprites.png
+  artifactKey: Guid(164207e2516cae4408d6348eccf9cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mansamusasprites.png using Guid(164207e2516cae4408d6348eccf9cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283697b0576102851dbd58eae1a69be7') in 0.6761285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/mikuspritesheet.png
+  artifactKey: Guid(1d4876fc429c66445b8526bed653e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mikuspritesheet.png using Guid(1d4876fc429c66445b8526bed653e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6458564e724ea298c0f6ab641376c3a2') in 0.3777245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/heimlersprites.png
+  artifactKey: Guid(d616e2f217d71f04fb5af6f1d6b23152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/heimlersprites.png using Guid(d616e2f217d71f04fb5af6f1d6b23152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72d9b34f803f1f9666043db3f479079') in 0.1669116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/greatwallofchina.png
+  artifactKey: Guid(0fb5300e0e1a2f942bb8d425f840d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/greatwallofchina.png using Guid(0fb5300e0e1a2f942bb8d425f840d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c04eaf1cb51e10adcde0adb97f4da6c') in 0.1449972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/mussolinisprites.png
+  artifactKey: Guid(4759445da46d3f74e9bdd73cdc265377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mussolinisprites.png using Guid(4759445da46d3f74e9bdd73cdc265377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c63dfd76595a51a8c176a3dae61e9372') in 0.3819205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
