@@ -1,10 +1,37 @@
 fileFormatVersion: 2
-guid: 1d4876fc429c66445b8526bed653e018
+guid: bc84d3b7e9e95f54baeffa68dd20204f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4688208390142733545
-    second: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_0
+      213: 3719973217296364071
+    second: Jesus Sprite_0
+  - first:
+      213: -6159879594555078149
+    second: Jesus Sprite_1
+  - first:
+      213: -4197437336974572626
+    second: Jesus Sprite_2
+  - first:
+      213: -8127375322286216089
+    second: Jesus Sprite_3
+  - first:
+      213: 4970650598566959358
+    second: Jesus Sprite_4
+  - first:
+      213: 5864593903735825903
+    second: Jesus Sprite_5
+  - first:
+      213: -5385694441098379588
+    second: Jesus Sprite_6
+  - first:
+      213: -4714449075707994741
+    second: Jesus Sprite_7
+  - first:
+      213: 8852155565898819336
+    second: Jesus Sprite_8
+  - first:
+      213: -2402080316921410684
+    second: Jesus Sprite_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,33 +111,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_0
+      name: Jesus Sprite_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 715
-        width: 230
-        height: 255
+        x: 47
+        y: 623
+        width: 184
+        height: 308
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,140 +142,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eca67f01bcdf0140800000000000000
-      internalID: 4688208390142733545
+      spriteID: 722baee8eefff9330800000000000000
+      internalID: 3719973217296364071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_1
+      name: Jesus Sprite_1
       rect:
         serializedVersion: 2
-        x: 296
-        y: 720
-        width: 198
-        height: 247
+        x: 287
+        y: 623
+        width: 183
+        height: 307
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 59be285c88b18dc4c9f083fc93194fd4
-      internalID: -1911110468
+      spriteID: bf90e5b2526b38aa0800000000000000
+      internalID: -6159879594555078149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_2
+      name: Jesus Sprite_2
       rect:
         serializedVersion: 2
-        x: 542
-        y: 721
-        width: 180
-        height: 245
+        x: 509
+        y: 623
+        width: 196
+        height: 308
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d7105faf11baa843aa305f988087459
-      internalID: -254760088
+      spriteID: ea34ba22bf4bfb5c0800000000000000
+      internalID: -4197437336974572626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_3
+      name: Jesus Sprite_3
       rect:
         serializedVersion: 2
-        x: 762
-        y: 721
-        width: 181
-        height: 248
+        x: 767
+        y: 623
+        width: 210
+        height: 308
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fce771b078f39ac44b33ceffa9dc728d
-      internalID: 1881015962
+      spriteID: 76caade7433c53f80800000000000000
+      internalID: -8127375322286216089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_4
+      name: Jesus Sprite_4
       rect:
         serializedVersion: 2
-        x: 328
-        y: 73
-        width: 179
-        height: 239
+        x: 75
+        y: 272
+        width: 227
+        height: 313
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 267fab802c815624b89917f17eeacb21
-      internalID: -25971888
+      spriteID: ef89a2e326c4bf440800000000000000
+      internalID: 4970650598566959358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_5
+      name: Jesus Sprite_5
       rect:
         serializedVersion: 2
-        x: 73
-        y: 70
-        width: 207
-        height: 241
+        x: 375
+        y: 279
+        width: 250
+        height: 322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3f816139dc388844c96c1a1fcbf4661c
-      internalID: 73608138
+      spriteID: fe568106519336150800000000000000
+      internalID: 5864593903735825903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_6
+      name: Jesus Sprite_6
       rect:
         serializedVersion: 2
-        x: 550
-        y: 68
-        width: 333
-        height: 223
+        x: 671
+        y: 279
+        width: 306
+        height: 291
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d185059eb7509243b74a0a1dc4466c1
-      internalID: -413696020
+      spriteID: cbef881c07b2245b0800000000000000
+      internalID: -5385694441098379588
       vertices: []
       indices: 
       edges: []
@@ -283,7 +284,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1c2934c6075f34a4b93a7cde24cb2cf0
+    spriteID: 7191c7aff08732d458c81b98de07d724
     internalID: 0
     vertices: []
     indices: 
@@ -293,12 +294,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_1: -1911110468
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_2: -254760088
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_3: 1881015962
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_4: -25971888
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_5: 73608138
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_6: -413696020
+      Jesus Sprite_0: 3719973217296364071
+      Jesus Sprite_1: -6159879594555078149
+      Jesus Sprite_2: -4197437336974572626
+      Jesus Sprite_3: -8127375322286216089
+      Jesus Sprite_4: 4970650598566959358
+      Jesus Sprite_5: 5864593903735825903
+      Jesus Sprite_6: -5385694441098379588
+      Jesus Sprite_7: -4714449075707994741
+      Jesus Sprite_8: 8852155565898819336
+      Jesus Sprite_9: -2402080316921410684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

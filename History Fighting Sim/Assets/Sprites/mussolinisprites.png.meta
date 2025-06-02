@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 4759445da46d3f74e9bdd73cdc265377
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6210275030850883369
+    second: Mussolini_Sprite-removebg-preview_0
+  - first:
+      213: 3033848714127192509
+    second: Mussolini_Sprite-removebg-preview_1
+  - first:
+      213: 1387759584935505484
+    second: Mussolini_Sprite-removebg-preview_2
+  - first:
+      213: 6264963067415403950
+    second: Mussolini_Sprite-removebg-preview_3
+  - first:
+      213: 6839098006281449572
+    second: Mussolini_Sprite-removebg-preview_4
+  - first:
+      213: 3444436087676764131
+    second: Mussolini_Sprite-removebg-preview_5
+  - first:
+      213: -6305785626696758779
+    second: Mussolini_Sprite-removebg-preview_6
+  - first:
+      213: 670267469901489753
+    second: Mussolini_Sprite-removebg-preview_7
+  - first:
+      213: -6848578898780876154
+    second: Mussolini_Sprite-removebg-preview_8
+  - first:
+      213: 2168613637392295972
+    second: Mussolini_Sprite-removebg-preview_9
+  - first:
+      213: 165853853586202259
+    second: Mussolini_Sprite-removebg-preview_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 315
+        width: 100
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0b7ac43cba0d9a0800000000000000
+      internalID: -6210275030850883369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 315
+        width: 87
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1b3dbd4556a1a20800000000000000
+      internalID: 3033848714127192509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 315
+        width: 86
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e69b56dff424310800000000000000
+      internalID: 1387759584935505484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 315
+        width: 86
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead9c3477be91f650800000000000000
+      internalID: 6264963067415403950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 148
+        width: 89
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460fc70d66b59ee50800000000000000
+      internalID: 6839098006281449572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 148
+        width: 88
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef72815f581dcf20800000000000000
+      internalID: 3444436087676764131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 148
+        width: 89
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ac9fac1695d78a0800000000000000
+      internalID: -6305785626696758779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 13
+        width: 92
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9566aff66b44d4900800000000000000
+      internalID: 670267469901489753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 13
+        width: 91
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6821ee1e6c5f4f0a0800000000000000
+      internalID: -6848578898780876154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 13
+        width: 143
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428e5d70d96781e10800000000000000
+      internalID: 2168613637392295972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mussolini_Sprite-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 72
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e92ab733b3d4200800000000000000
+      internalID: 165853853586202259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a53dbdc271810f84bba864d3c09fee23
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mussolini_Sprite-removebg-preview_0: -6210275030850883369
+      Mussolini_Sprite-removebg-preview_1: 3033848714127192509
+      Mussolini_Sprite-removebg-preview_10: 165853853586202259
+      Mussolini_Sprite-removebg-preview_2: 1387759584935505484
+      Mussolini_Sprite-removebg-preview_3: 6264963067415403950
+      Mussolini_Sprite-removebg-preview_4: 6839098006281449572
+      Mussolini_Sprite-removebg-preview_5: 3444436087676764131
+      Mussolini_Sprite-removebg-preview_6: -6305785626696758779
+      Mussolini_Sprite-removebg-preview_7: 670267469901489753
+      Mussolini_Sprite-removebg-preview_8: -6848578898780876154
+      Mussolini_Sprite-removebg-preview_9: 2168613637392295972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

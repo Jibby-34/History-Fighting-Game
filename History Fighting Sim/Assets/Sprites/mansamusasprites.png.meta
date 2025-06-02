@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1d4876fc429c66445b8526bed653e018
+guid: 164207e2516cae4408d6348eccf9cec6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4688208390142733545
-    second: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_0
+      213: 2478778917607479135
+    second: Mansa Musa Sprite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,33 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_0
+      name: Mansa Musa Sprite_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 715
-        width: 230
-        height: 255
+        x: 68
+        y: 653
+        width: 194
+        height: 310
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,140 +115,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eca67f01bcdf0140800000000000000
-      internalID: 4688208390142733545
+      spriteID: f5798bcda44666220800000000000000
+      internalID: 2478778917607479135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_1
+      name: mansamusasprites_0
       rect:
         serializedVersion: 2
-        x: 296
-        y: 720
-        width: 198
-        height: 247
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59be285c88b18dc4c9f083fc93194fd4
-      internalID: -1911110468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_2
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 721
-        width: 180
-        height: 245
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d7105faf11baa843aa305f988087459
-      internalID: -254760088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_3
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 721
+        x: 315
+        y: 654
         width: 181
-        height: 248
+        height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce771b078f39ac44b33ceffa9dc728d
-      internalID: 1881015962
+      spriteID: 023cc7fbf93dad44a8b66ec54b8dbf51
+      internalID: -1008324655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_4
+      name: mansamusasprites_1
       rect:
         serializedVersion: 2
-        x: 328
-        y: 73
+        x: 560
+        y: 654
+        width: 173
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf34553736acd4e9a20d07c13d9083
+      internalID: 294762630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 654
         width: 179
-        height: 239
+        height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267fab802c815624b89917f17eeacb21
-      internalID: -25971888
+      spriteID: fd2f080774f75e342b3c0142b473accb
+      internalID: -1370305803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_5
+      name: mansamusasprites_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 70
-        width: 207
-        height: 241
+        x: 60
+        y: 311
+        width: 191
+        height: 310
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f816139dc388844c96c1a1fcbf4661c
-      internalID: 73608138
+      spriteID: 496a1a8a9e169fd4e91dd29c88a4da6a
+      internalID: 817966755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5ed40b36-da4f-4477-a7fc-963eaba2c5eb_6
+      name: mansamusasprites_4
       rect:
         serializedVersion: 2
-        x: 550
-        y: 68
-        width: 333
-        height: 223
+        x: 301
+        y: 311
+        width: 186
+        height: 310
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d185059eb7509243b74a0a1dc4466c1
-      internalID: -413696020
+      spriteID: 79718cbcf738ac54888cfb816c83aa2f
+      internalID: -728777574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 308
+        width: 373
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4072bf576340eab40a109b394fc8c9d8
+      internalID: -2126074490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dff023000166241acb375419d7eace
+      internalID: 110088815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 182
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3186af0b98562e499d1d9e4c36bc00d
+      internalID: -2062048324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansamusasprites_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 422
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae7da688bb47f44b9b97bb07f6e32b8
+      internalID: -107588879
       vertices: []
       indices: 
       edges: []
@@ -283,7 +323,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1c2934c6075f34a4b93a7cde24cb2cf0
+    spriteID: 6bfa59b847c596c408e4b8e46145edca
     internalID: 0
     vertices: []
     indices: 
@@ -293,12 +333,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_1: -1911110468
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_2: -254760088
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_3: 1881015962
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_4: -25971888
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_5: 73608138
-      5ed40b36-da4f-4477-a7fc-963eaba2c5eb_6: -413696020
+      Mansa Musa Sprite_0: 2478778917607479135
+      mansamusasprites_0: -1008324655
+      mansamusasprites_1: 294762630
+      mansamusasprites_2: -1370305803
+      mansamusasprites_3: 817966755
+      mansamusasprites_4: -728777574
+      mansamusasprites_5: -2126074490
+      mansamusasprites_6: 110088815
+      mansamusasprites_7: -2062048324
+      mansamusasprites_8: -107588879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
