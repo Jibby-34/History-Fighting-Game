@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Colosseum
   m_EditorClassIdentifier: 
   stageName: The Colosseum
-  platformPositions: []
-  platformSizes: []
+  platformPositions:
+  - {x: 1, y: 1}
+  platformSizes:
+  - {x: 1, y: 1}

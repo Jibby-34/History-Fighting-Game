@@ -63,6 +63,7 @@ public class StageManager : MonoBehaviour
         stageText.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
         selectedStage.selectedStage = stages[index];
         stageSelected = true;
+        SceneManager.LoadScene("MainScene");
     }
 }
 
