@@ -256,6 +256,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8653481d5d7484f8103b8eb6d23240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stages:
+  - {fileID: 11400000, guid: af96c53f17aff1849a4a8744cb39dd96, type: 2}
+  - {fileID: 11400000, guid: 924bed3a1ebe1104f9114d759aa10df2, type: 2}
+  - {fileID: 11400000, guid: ec02b669bf89dc7449720a78c87458a9, type: 2}
+  - {fileID: 11400000, guid: cf8e8519ae63ac1498b31377427bf1d8, type: 2}
+  gridCells:
+  - {fileID: 1814393726}
+  - {fileID: 1474462274}
+  - {fileID: 2069761046}
+  - {fileID: 431621965}
+  selectorIndex: 0
+  stageText: {fileID: 1785798386}
+  selectedStage: {fileID: 11400000, guid: fba449909cd799340aac051c47489642, type: 2}
 --- !u!4 &321028602
 Transform:
   m_ObjectHideFlags: 0
@@ -281,6 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431621963}
   - component: {fileID: 431621964}
+  - component: {fileID: 431621965}
   m_Layer: 0
   m_Name: GreatWallOfChinaIcon
   m_TagString: Untagged
@@ -344,8 +358,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -419159937
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 5298590674072725027, guid: 0fb5300e0e1a2f942bb8d425f840d6ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -358,6 +372,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &431621965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431621962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 431621964}
+  selector1Sprite: {fileID: 0}
+  selector2Sprite: {fileID: 0}
+  bothSelectorsSprite: {fileID: 0}
+  defaultSprite: {fileID: 0}
+  isSelector1Here: 0
+  isSelector2Here: 0
 --- !u!1 &442145168
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +402,7 @@ GameObject:
   - component: {fileID: 442145169}
   - component: {fileID: 442145170}
   m_Layer: 6
-  m_Name: AtlasBackground2_0
+  m_Name: AtlasBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +417,7 @@ Transform:
   m_GameObject: {fileID: 442145168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -960.16, y: -540.12, z: 0}
+  m_LocalPosition: {x: -960, y: -540, z: 0}
   m_LocalScale: {x: 1.25, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -810,6 +843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1474462272}
   - component: {fileID: 1474462273}
+  - component: {fileID: 1474462274}
   m_Layer: 0
   m_Name: NoMansLandIcon
   m_TagString: Untagged
@@ -873,8 +907,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -419159937
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1521962849721217491, guid: 91aaa1c066736cf4383717793f6a8685, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -887,6 +921,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1474462274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474462271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1474462273}
+  selector1Sprite: {fileID: 0}
+  selector2Sprite: {fileID: 0}
+  bothSelectorsSprite: {fileID: 0}
+  defaultSprite: {fileID: 0}
+  isSelector1Here: 0
+  isSelector2Here: 0
 --- !u!1 &1785798384
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,8 +974,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107.6, y: -545}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 226.20004, y: -545}
+  m_SizeDelta: {x: 366.9, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785798386
 MonoBehaviour:
@@ -1033,7 +1086,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1814393724}
   - component: {fileID: 1814393725}
-  m_Layer: 0
+  - component: {fileID: 1814393726}
+  m_Layer: 5
   m_Name: ColosseumIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,8 +1150,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -419159937
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3391265115548036410, guid: d9875d8e2a6d55b488c05c197e248371, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1110,6 +1164,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1814393726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814393723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1814393725}
+  selector1Sprite: {fileID: 0}
+  selector2Sprite: {fileID: 0}
+  bothSelectorsSprite: {fileID: 0}
+  defaultSprite: {fileID: 0}
+  isSelector1Here: 0
+  isSelector2Here: 0
 --- !u!1 &2069761043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,6 +1193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2069761044}
   - component: {fileID: 2069761045}
+  - component: {fileID: 2069761046}
   m_Layer: 0
   m_Name: ConstantinopleIcon
   m_TagString: Untagged
@@ -1183,8 +1257,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -419159937
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -6434168845861540024, guid: b094b43f5ca08c141a982246ec804a19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1197,6 +1271,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2069761046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069761043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 2069761045}
+  selector1Sprite: {fileID: 0}
+  selector2Sprite: {fileID: 0}
+  bothSelectorsSprite: {fileID: 0}
+  defaultSprite: {fileID: 0}
+  isSelector1Here: 0
+  isSelector2Here: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

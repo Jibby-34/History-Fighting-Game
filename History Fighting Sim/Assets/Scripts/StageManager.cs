@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class StageManager : MonoBehaviour
 {
     public StageData[] stages;  // assign in inspector, one per grid cell
-    public GridCell[] gridCells;    // references to cells, aligned with characters[]
+    public GridCell[] gridCells;    // references to cells, aligned with stages[]
 
     public int selectorIndex = 0;  // current selected index by selector 1
     int gridWidth = 2;
@@ -17,6 +17,10 @@ public class StageManager : MonoBehaviour
 
     void Start()
     {
+        for (int i = 0; i < gridCells.Length; i++)
+        {
+            gridCells[i].spriteRenderer.color = new Color(1f, 1f, 1f, 0.4f);
+        }
         MoveSelector(0);
     }
 
@@ -43,14 +47,15 @@ public class StageManager : MonoBehaviour
     void UpdateSelectorPosition(int selectorId, int newIndex)
     {
         // Clear old cell state
-        gridCells[selectorIndex].isSelectorHere = false;
-        gridCells[selectorIndex].UpdateSprite();
+        gridCells[selectorIndex].isSelector1Here = false;
+        gridCells[selectorIndex].spriteRenderer.color = new Color(1f, 1f, 1f, 0.4f);
 
         selectorIndex = newIndex;
 
         // Set new cell state
-        gridCells[selectorIndex].isSelectorHere = true;
-        gridCells[selectorIndex].UpdateSprite();
+        gridCells[selectorIndex].isSelector1Here = true;
+        gridCells[selectorIndex].spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
+        stageText.text = stages[selectorIndex].stageName;
     }
 
     public void SelectStage(int index, int player)
