@@ -2847,3 +2847,239 @@ Memory consumption went from 162.0 MB to 153.9 MB.
 Total: 34.796400 ms (FindLiveObjects: 2.908200 ms CreateObjectMapping: 2.173500 ms MarkObjects: 15.475900 ms  DeleteObjects: 14.236600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.500 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.451 seconds
+Domain Reload Profiling: 6950ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (981ms)
+		LoadAssemblies (736ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (394ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (5455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (2065ms)
+			ProcessInitializeOnLoadMethodAttributes (860ms)
+			AfterProcessingInitializeOnLoad (226ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (178ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 19.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6562 unused Assets / (8.1 MB). Loaded Objects now: 7474.
+Memory consumption went from 162.0 MB to 154.0 MB.
+Total: 36.704200 ms (FindLiveObjects: 1.382500 ms CreateObjectMapping: 2.521300 ms MarkObjects: 14.540800 ms  DeleteObjects: 18.256200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.009 seconds
+Refreshing native plugins compatible for Editor in 12.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.690 seconds
+Domain Reload Profiling: 7700ms
+	BeginReloadAssembly (736ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (95ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (255ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1102ms)
+		LoadAssemblies (847ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (492ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (445ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (5692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (35ms)
+			BeforeProcessingInitializeOnLoad (703ms)
+			ProcessInitializeOnLoadAttributes (2406ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6562 unused Assets / (4.5 MB). Loaded Objects now: 7476.
+Memory consumption went from 162.0 MB to 157.6 MB.
+Total: 31.880200 ms (FindLiveObjects: 4.666500 ms CreateObjectMapping: 2.056500 ms MarkObjects: 17.119500 ms  DeleteObjects: 8.035300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 39495.215845 seconds.
+  path: Assets/Scenes/StageSelect.unity
+  artifactKey: Guid(e06c6c55827fd9c429c7f3b3fe20229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageSelect.unity using Guid(e06c6c55827fd9c429c7f3b3fe20229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67124d53bf9a994530d3a12913ebb4d2') in 0.0087055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1007.610958 seconds.
+  path: Assets/Stages/ChatGPT Image Jun 2, 2025, 08_23_32 AM.png
+  artifactKey: Guid(b094b43f5ca08c141a982246ec804a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stages/ChatGPT Image Jun 2, 2025, 08_23_32 AM.png using Guid(b094b43f5ca08c141a982246ec804a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '048372cbb1a239685a98216490751cca') in 0.3190148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.037535 seconds.
+  path: Assets/Stages/constantinoplebackground.png
+  artifactKey: Guid(b094b43f5ca08c141a982246ec804a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stages/constantinoplebackground.png using Guid(b094b43f5ca08c141a982246ec804a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83eae46f818a1dfb3eddde1babd56f30') in 0.0364778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6889.206598 seconds.
+  path: Assets/Sprites/longselectors.png
+  artifactKey: Guid(bb506e0e84c8d5c4e8e15aefda705759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/longselectors.png using Guid(bb506e0e84c8d5c4e8e15aefda705759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00d9050094fe64591ffa132f6384f6f4') in 0.0849381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.476796 seconds.
+  path: Assets/Sprites/stageframes.png
+  artifactKey: Guid(bb506e0e84c8d5c4e8e15aefda705759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/stageframes.png using Guid(bb506e0e84c8d5c4e8e15aefda705759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3153a783ebcf4a8bb7d132027cb481a') in 0.0200723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.624071 seconds.
+  path: Assets/Sprites/stageframewhite.png
+  artifactKey: Guid(bb506e0e84c8d5c4e8e15aefda705759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/stageframewhite.png using Guid(bb506e0e84c8d5c4e8e15aefda705759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c478bb0be67c8059950696473925d6ca') in 0.0234189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.433922 seconds.
+  path: Assets/Sprites/unnamed.png
+  artifactKey: Guid(c87b473f8a1159c499cd5329b9339d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/unnamed.png using Guid(c87b473f8a1159c499cd5329b9339d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b043fc15c2ee0c29e710a4563e14110c') in 0.0433134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.548762 seconds.
+  path: Assets/Sprites/stageframeblue.png
+  artifactKey: Guid(c87b473f8a1159c499cd5329b9339d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/stageframeblue.png using Guid(c87b473f8a1159c499cd5329b9339d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d82b4be73aa1606ceccfbb3e693ea8') in 0.0193915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 753.098655 seconds.
+  path: Assets/Stages/noman'sland.png
+  artifactKey: Guid(91aaa1c066736cf4383717793f6a8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stages/noman'sland.png using Guid(91aaa1c066736cf4383717793f6a8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5947712adb627bdcaa773ee0c3d5df03') in 0.0897906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.137398 seconds.
+  path: Assets/Stages/nomanslandbackground.png
+  artifactKey: Guid(91aaa1c066736cf4383717793f6a8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stages/nomanslandbackground.png using Guid(91aaa1c066736cf4383717793f6a8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5148b6fec8fb470bf71a7bd3042420') in 0.0426063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 380.470732 seconds.
+  path: Assets/Sprites/georgewashingtonsprites.png
+  artifactKey: Guid(e9a1bdb0cb3245141a4b3c6063585d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/georgewashingtonsprites.png using Guid(e9a1bdb0cb3245141a4b3c6063585d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b934620d555a0035533316a05ad4ff5') in 0.1563673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/jesussprites.png
+  artifactKey: Guid(bc84d3b7e9e95f54baeffa68dd20204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/jesussprites.png using Guid(bc84d3b7e9e95f54baeffa68dd20204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e759057b47eba342eaff720d784ed74b') in 0.1686221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/mansamusasprites.png
+  artifactKey: Guid(164207e2516cae4408d6348eccf9cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mansamusasprites.png using Guid(164207e2516cae4408d6348eccf9cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283697b0576102851dbd58eae1a69be7') in 0.6761285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/mikuspritesheet.png
+  artifactKey: Guid(1d4876fc429c66445b8526bed653e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mikuspritesheet.png using Guid(1d4876fc429c66445b8526bed653e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6458564e724ea298c0f6ab641376c3a2') in 0.3777245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/heimlersprites.png
+  artifactKey: Guid(d616e2f217d71f04fb5af6f1d6b23152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/heimlersprites.png using Guid(d616e2f217d71f04fb5af6f1d6b23152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72d9b34f803f1f9666043db3f479079') in 0.1669116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/greatwallofchina.png
+  artifactKey: Guid(0fb5300e0e1a2f942bb8d425f840d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/greatwallofchina.png using Guid(0fb5300e0e1a2f942bb8d425f840d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c04eaf1cb51e10adcde0adb97f4da6c') in 0.1449972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/mussolinisprites.png
+  artifactKey: Guid(4759445da46d3f74e9bdd73cdc265377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mussolinisprites.png using Guid(4759445da46d3f74e9bdd73cdc265377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c63dfd76595a51a8c176a3dae61e9372') in 0.3819205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
