@@ -12,8 +12,8 @@ public class HealthManager : MonoBehaviour
 
     void Start()
     {
-        health = characterData.health;
         characterData = selectedCharacter.selectedCharacter;
+        health = characterData.health;
         UpdateHealthBar();
     }
 

@@ -14,6 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Hatsune Miku
   moveSpeed: 5
-  jumpForce: 6
-  animator: {fileID: 9100000, guid: 9b1a79f3303de384f86818c701b99157, type: 2}
-  idleSprite: {fileID: -4285648581210614357, guid: 134a5463747270145a91776d1c6df45f, type: 3}
+  jumpForce: 10
+  health: 100
+  hitboxScale: {x: 1.6, y: 2.5}
+  hitboxPosition: {x: 0, y: 0}
+  idleSprite: {fileID: 4688208390142733545, guid: 1d4876fc429c66445b8526bed653e018, type: 3}
+  animator: {fileID: 9100000, guid: 246eb6504d02e5c4aa1ba205a8eaa58c, type: 2}
+  lightAttack: {fileID: 11400000, guid: deb62c3bd3cbcbc40b235d16a6f9e537, type: 2}
+  heavyAttack: {fileID: 0}
+  specialAttack: {fileID: 0}
+  spriteScale: {x: 0.6, y: 0.6}

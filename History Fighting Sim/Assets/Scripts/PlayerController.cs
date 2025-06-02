@@ -8,7 +8,9 @@ public class PlayerController : MonoBehaviour
     private CharacterData characterData;
     public SelectedCharacter selectedCharacter;
     public AttackHandler attackHandler;
-    public Collider2D hitbox;
+    public BoxCollider2D hitbox;
+    public BoxCollider2D playerHitbox;
+
 
     // Double jump avoidance
     [Header("Ground Check")]
@@ -41,6 +43,9 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb.linearDamping = 0f;
         characterData = selectedCharacter.selectedCharacter;
+        gameObject.transform.localScale = characterData.spriteScale;
+        playerHitbox.size = characterData.hitboxScale;
+        playerHitbox.offset = characterData.hitboxPosition;
 
         // Change controls if player 2
         if (playerId == 2)

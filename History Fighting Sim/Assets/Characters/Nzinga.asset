@@ -16,8 +16,11 @@ MonoBehaviour:
   moveSpeed: 6.5
   jumpForce: 7
   health: 100
+  hitboxScale: {x: 0.8, y: 1.33}
+  hitboxPosition: {x: 0, y: 0}
   idleSprite: {fileID: -2655725358503588489, guid: f751732f8a8c11f4caa39599ba56bcc0, type: 3}
   animator: {fileID: 9100000, guid: 20eaf639240ca5e48af15ed04c52624e, type: 2}
   lightAttack: {fileID: 11400000, guid: 880c404754f9f9b448cec8e323f80c72, type: 2}
   heavyAttack: {fileID: 0}
   specialAttack: {fileID: 0}
+  spriteScale: {x: 1, y: 1}
