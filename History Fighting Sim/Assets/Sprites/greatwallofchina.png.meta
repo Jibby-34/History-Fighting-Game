@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0fb5300e0e1a2f942bb8d425f840d6ea
+guid: d45eb69753bce824997cb30913cde269
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      greatwallofchina_0: 5298590674072725027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
