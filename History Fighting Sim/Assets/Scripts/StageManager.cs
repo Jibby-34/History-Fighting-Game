@@ -64,10 +64,7 @@ public class StageManager : MonoBehaviour
     public void SelectStage(int index, int player)
     {
         stageText.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
-        selectedStage.selectedStage = stages[index];
-        #if UNITY_EDITOR
-        EditorUtility.SetDirty(this);
-        #endif
+        GameData.selectedStage = stages[index];
         stageSelected = true;
         SceneManager.LoadScene("CharacterSelect");
     }

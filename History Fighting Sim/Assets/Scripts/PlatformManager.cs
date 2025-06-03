@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class PlatformManager : MonoBehaviour
 {
-    public SelectedStage selectedStage;
     public Sprite platformSprite;
     public SpriteRenderer background;
 
     void Start()
     {
-        for (int i = 0; i < selectedStage.selectedStage.platformPositions.Length; i++)
+
+        for (int i = 0; i < GameData.selectedStage.platformPositions.Length; i++)
         {
             GameObject rect = new GameObject("Platform" + i);
-            rect.transform.position = selectedStage.selectedStage.platformPositions[i];
+            rect.transform.position = GameData.selectedStage.platformPositions[i];
             SpriteRenderer sr = rect.AddComponent<SpriteRenderer>();
             sr.sprite = platformSprite;
-            sr.color = selectedStage.selectedStage.platformColor;
+            sr.color = GameData.selectedStage.platformColor;
 
-            rect.transform.localScale = selectedStage.selectedStage.platformSizes[i];
+            rect.transform.localScale = GameData.selectedStage.platformSizes[i];
 
             BoxCollider2D collider = rect.AddComponent<BoxCollider2D>();
             collider.size = Vector2.one;
@@ -24,6 +24,6 @@ public class PlatformManager : MonoBehaviour
             rect.layer = LayerMask.NameToLayer("Ground");
             sr.sortingLayerName = "Background";
         }
-        background.sprite = selectedStage.selectedStage.backgroundSprite;
+        background.sprite = GameData.selectedStage.backgroundSprite;
     }
 }

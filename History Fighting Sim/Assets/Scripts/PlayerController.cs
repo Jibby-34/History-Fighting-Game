@@ -7,7 +7,6 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
     private CharacterData characterData;
-    public SelectedCharacter selectedCharacter;
     public HealthManager healthManager;
     public AttackHandler attackHandler;
     public BoxCollider2D hitbox;
@@ -46,7 +45,14 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb.linearDamping = 0f;
-        characterData = selectedCharacter.selectedCharacter;
+        if (playerId == 1)
+        {
+            characterData = GameData.player1Character;
+        }
+        else
+        {
+            characterData = GameData.player2Character;
+        }
         gameObject.transform.localScale = characterData.spriteScale;
         playerHitbox.size = characterData.hitboxScale;
         playerHitbox.offset = characterData.hitboxPosition;

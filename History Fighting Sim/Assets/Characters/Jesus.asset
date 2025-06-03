@@ -15,12 +15,12 @@ MonoBehaviour:
   characterName: Jesus
   moveSpeed: 5
   jumpForce: 10
-  health: 100
-  hitboxScale: {x: 0, y: 0}
+  health: 125
+  hitboxScale: {x: 2, y: 3.1}
   hitboxPosition: {x: 0, y: 0}
-  idleSprite: {fileID: 0}
-  animator: {fileID: 0}
-  lightAttack: {fileID: 0}
+  idleSprite: {fileID: 3719973217296364071, guid: bc84d3b7e9e95f54baeffa68dd20204f, type: 3}
+  animator: {fileID: 9100000, guid: e073c5638f85a914991e5b67b3c2bb67, type: 2}
+  lightAttack: {fileID: 11400000, guid: 0a2f0d27a91626843b4e8eca3407fe1b, type: 2}
   heavyAttack: {fileID: 0}
   specialAttack: {fileID: 0}
-  spriteScale: {x: 0, y: 0}
+  spriteScale: {x: 0.5, y: 0.5}
