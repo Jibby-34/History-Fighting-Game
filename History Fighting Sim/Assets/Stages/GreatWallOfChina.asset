@@ -18,9 +18,9 @@ MonoBehaviour:
   - {x: 4, y: -1.5}
   - {x: 0, y: 1.33}
   platformSizes:
-  - {x: 4, y: 0.6}
-  - {x: 4, y: 0.6}
-  - {x: 4, y: 0.6}
-  platformColor: {r: 0.72327036, g: 0.6266736, b: 0.28885317, a: 1}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  platformColor: {r: 0.7610062, g: 0.6249044, b: 0.25127554, a: 1}
   backgroundSprite: {fileID: 5298590674072725027, guid: f46d499255867ea4583ddec6065e160f, type: 3}
   platformSprite: {fileID: 5175972328516428169, guid: 837c8800f8196784681abdcf07487aa7, type: 3}

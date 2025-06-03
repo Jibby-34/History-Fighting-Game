@@ -14,11 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageName: Constantinople
   platformPositions:
-  - {x: 0, y: -1.6}
   - {x: 0, y: 1.33}
+  - {x: 0, y: -1.5}
+  - {x: 2.5, y: -1.5}
+  - {x: 5, y: -1.5}
+  - {x: -2.5, y: -1.5}
+  - {x: -5, y: -1.5}
   platformSizes:
-  - {x: 13, y: 0.6}
-  - {x: 4, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
+  - {x: 0.6, y: 0.6}
   platformColor: {r: 0.5031446, g: 0.28380728, b: 0.058541894, a: 1}
   backgroundSprite: {fileID: -6434168845861540024, guid: b094b43f5ca08c141a982246ec804a19, type: 3}
   platformSprite: {fileID: 5175972328516428169, guid: 837c8800f8196784681abdcf07487aa7, type: 3}

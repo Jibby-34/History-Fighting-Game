@@ -16,7 +16,7 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 10
   health: 125
-  hitboxScale: {x: 2, y: 3.1}
+  hitboxScale: {x: 2, y: 2.8}
   hitboxPosition: {x: 0, y: 0}
   groundCheckPosition: {x: 0, y: -1.5}
   idleSprite: {fileID: 3719973217296364071, guid: bc84d3b7e9e95f54baeffa68dd20204f, type: 3}

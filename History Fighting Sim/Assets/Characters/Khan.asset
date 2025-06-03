@@ -16,7 +16,7 @@ MonoBehaviour:
   moveSpeed: 4.8
   jumpForce: 7.7
   health: 150
-  hitboxScale: {x: 0.8, y: 1.33}
+  hitboxScale: {x: 0.8, y: 1.3}
   hitboxPosition: {x: 0, y: 0}
   groundCheckPosition: {x: 0, y: -0.85}
   idleSprite: {fileID: -5454690590052660486, guid: 0c0ad1e34098fdb4581dfdaa58f89806, type: 3}
@@ -24,4 +24,4 @@ MonoBehaviour:
   lightAttack: {fileID: 11400000, guid: 2da582b1893c9ae40ad1c8d026873529, type: 2}
   heavyAttack: {fileID: 0}
   specialAttack: {fileID: 0}
-  spriteScale: {x: 1, y: 1}
+  spriteScale: {x: 1.3, y: 1.3}
