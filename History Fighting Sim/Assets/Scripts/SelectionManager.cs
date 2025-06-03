@@ -109,7 +109,7 @@ public class SelectionManager : MonoBehaviour
 
         if (player1Selected && player2Selected)
         {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("StageSelect");
         }
     }
     
