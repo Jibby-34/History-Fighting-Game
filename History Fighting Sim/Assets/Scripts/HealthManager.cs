@@ -27,6 +27,11 @@ public class HealthManager : MonoBehaviour
     void UpdateHealthBar()
     {
         Debug.Log(((float)health / characterData.health) * width);
-        fillImage.sizeDelta = new Vector2(((float)health / characterData.health) * width, height);   
+        fillImage.sizeDelta = new Vector2(((float)health / characterData.health) * width, height);
+    }
+
+    public double GetHealth()
+    {
+        return health;
     }
 }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Joesph Stalin
   moveSpeed: 5
-  jumpForce: 6
+  jumpForce: 7.7
   health: 100
   hitboxScale: {x: 0.8, y: 1.33}
   hitboxPosition: {x: 0, y: 0}

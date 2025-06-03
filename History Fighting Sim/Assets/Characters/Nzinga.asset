@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Queen Nzinga
   moveSpeed: 6.5
-  jumpForce: 7
+  jumpForce: 8.5
   health: 100
   hitboxScale: {x: 0.8, y: 1.33}
   hitboxPosition: {x: 0, y: 0}

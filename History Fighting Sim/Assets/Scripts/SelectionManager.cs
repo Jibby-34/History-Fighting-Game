@@ -21,7 +21,9 @@ public class SelectionManager : MonoBehaviour
 
     void Start()
     {
-        MoveSelector1(0);
+        player1SelectedCharacter.selectedCharacter = null;
+        player2SelectedCharacter.selectedCharacter = null;
+        MoveSelector1(1);
         MoveSelector2(1);
     }
 
@@ -109,7 +111,7 @@ public class SelectionManager : MonoBehaviour
 
         if (player1Selected && player2Selected)
         {
-            SceneManager.LoadScene("StageSelect");
+            SceneManager.LoadScene("MainScene");
         }
     }
     

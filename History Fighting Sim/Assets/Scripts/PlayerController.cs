@@ -7,9 +7,11 @@ public class PlayerController : MonoBehaviour
 {
     private CharacterData characterData;
     public SelectedCharacter selectedCharacter;
+    public HealthManager healthManager;
     public AttackHandler attackHandler;
     public BoxCollider2D hitbox;
     public BoxCollider2D playerHitbox;
+    public WinManager winManager;
 
 
     // Double jump avoidance
@@ -65,6 +67,19 @@ public class PlayerController : MonoBehaviour
         HandleJump();
         HandleAttack();
         UpdateAnimations();
+        CheckDead();
+    }
+
+    void CheckDead()
+    {
+        if (healthManager.GetHealth() <= 0)
+        {
+            playerHitbox.enabled = false;
+            winManager.FlagLoss(playerId);
+        }
+        if (groundCheck.transform.position.y <= -6) {
+            winManager.FlagLoss(playerId);
+        }
     }
 
     void HandleMovement()

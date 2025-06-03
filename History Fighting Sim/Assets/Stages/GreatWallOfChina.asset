@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: GreatWallOfChina
   m_EditorClassIdentifier: 
   stageName: The Great Wall of China
-  platformPositions: []
-  platformSizes: []
+  platformPositions:
+  - {x: -4, y: -1.5}
+  - {x: 4, y: -1.5}
+  - {x: 0, y: 1.33}
+  platformSizes:
+  - {x: 4, y: 0.6}
+  - {x: 4, y: 0.6}
+  - {x: 4, y: 0.6}
+  platformColor: {r: 0.72327036, g: 0.6266736, b: 0.28885317, a: 1}
+  backgroundSprite: {fileID: 5298590674072725027, guid: 0fb5300e0e1a2f942bb8d425f840d6ea, type: 3}
