@@ -99,13 +99,13 @@ public class SelectionManager : MonoBehaviour
         if (player == 1)
         {
             player1Character.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
-            player1SelectedCharacter.selectedCharacter = characters[index];
+            GameData.player1Character = characters[index];
             player1Selected = true;
         }
         else
         {
             player2Character.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
-            player2SelectedCharacter.selectedCharacter = characters[index];
+            GameData.player2Character = characters[index];
             player2Selected = true;
         }
 

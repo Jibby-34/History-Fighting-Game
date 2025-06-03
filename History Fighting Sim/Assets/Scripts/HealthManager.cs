@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class HealthManager : MonoBehaviour
 {
     private CharacterData characterData;
-    public SelectedCharacter selectedCharacter;
+    public int playerId;
     private int health;
     public RectTransform fillImage;
     public int width = 200;
@@ -12,7 +12,14 @@ public class HealthManager : MonoBehaviour
 
     void Start()
     {
-        characterData = selectedCharacter.selectedCharacter;
+        if (playerId == 1)
+        {
+            characterData = GameData.player1Character;
+        }
+        else
+        {
+            characterData = GameData.player2Character;
+        }
         health = characterData.health;
         UpdateHealthBar();
     }

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4f3bfd3ad92354d8c12597220a56a9, type: 3}
+  m_Name: CrossWhack
+  m_EditorClassIdentifier: 
+  attackName: CrossWhack
+  duration: 1
+  force: 0
+  knockbackForce: 10
+  launchAngle: 45
+  delayTime: 1
+  hitboxOffset: {x: 1, y: 0.1}
+  hitboxSize: {x: 2, y: 2}
+  damage: 15
+  attackAnimation: {fileID: 7400000, guid: 68d51145770730e41a0dfc51dc9e28a6, type: 2}
