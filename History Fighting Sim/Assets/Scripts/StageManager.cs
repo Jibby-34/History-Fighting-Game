@@ -1,12 +1,15 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 
 public class StageManager : MonoBehaviour
 {
     public StageData[] stages;  // assign in inspector, one per grid cell
-    public GridCell[] gridCells;    // references to cells, aligned with stages[]
+    public StageCell[] gridCells;    // references to cells, aligned with stages[]
 
     public int selectorIndex = 0;  // current selected index by selector 1
     int gridWidth = 2;
@@ -47,13 +50,13 @@ public class StageManager : MonoBehaviour
     void UpdateSelectorPosition(int selectorId, int newIndex)
     {
         // Clear old cell state
-        gridCells[selectorIndex].isSelector1Here = false;
+        gridCells[selectorIndex].isSelectorHere = false;
         gridCells[selectorIndex].spriteRenderer.color = new Color(1f, 1f, 1f, 0.4f);
 
         selectorIndex = newIndex;
 
         // Set new cell state
-        gridCells[selectorIndex].isSelector1Here = true;
+        gridCells[selectorIndex].isSelectorHere = true;
         gridCells[selectorIndex].spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
         stageText.text = stages[selectorIndex].stageName;
     }
@@ -62,6 +65,9 @@ public class StageManager : MonoBehaviour
     {
         stageText.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
         selectedStage.selectedStage = stages[index];
+        #if UNITY_EDITOR
+        EditorUtility.SetDirty(this);
+        #endif
         stageSelected = true;
         SceneManager.LoadScene("CharacterSelect");
     }

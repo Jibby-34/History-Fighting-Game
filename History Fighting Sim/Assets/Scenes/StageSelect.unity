@@ -381,16 +381,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 431621962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Script: {fileID: 11500000, guid: cda61e1b1f40e1a4fac7a2785d31d028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 431621964}
-  selector1Sprite: {fileID: 0}
-  selector2Sprite: {fileID: 0}
-  bothSelectorsSprite: {fileID: 0}
-  defaultSprite: {fileID: 0}
-  isSelector1Here: 0
-  isSelector2Here: 0
+  isSelectorHere: 0
 --- !u!1 &442145168
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,16 +925,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1474462271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Script: {fileID: 11500000, guid: cda61e1b1f40e1a4fac7a2785d31d028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1474462273}
-  selector1Sprite: {fileID: 0}
-  selector2Sprite: {fileID: 0}
-  bothSelectorsSprite: {fileID: 0}
-  defaultSprite: {fileID: 0}
-  isSelector1Here: 0
-  isSelector2Here: 0
+  isSelectorHere: 0
 --- !u!1 &1785798384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,16 +1163,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1814393723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Script: {fileID: 11500000, guid: cda61e1b1f40e1a4fac7a2785d31d028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1814393725}
-  selector1Sprite: {fileID: 0}
-  selector2Sprite: {fileID: 0}
-  bothSelectorsSprite: {fileID: 0}
-  defaultSprite: {fileID: 0}
-  isSelector1Here: 0
-  isSelector2Here: 0
+  isSelectorHere: 0
 --- !u!1 &2069761043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,16 +1265,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2069761043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffbe0cc76eb433744895a344c53d941b, type: 3}
+  m_Script: {fileID: 11500000, guid: cda61e1b1f40e1a4fac7a2785d31d028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2069761045}
-  selector1Sprite: {fileID: 0}
-  selector2Sprite: {fileID: 0}
-  bothSelectorsSprite: {fileID: 0}
-  defaultSprite: {fileID: 0}
-  isSelector1Here: 0
-  isSelector2Here: 0
+  isSelectorHere: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

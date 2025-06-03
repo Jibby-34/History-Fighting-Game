@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2d479a0f910e904bb8e448b7427598d, type: 3}
-  m_Name: Stalin
+  m_Name: Mussolini
   m_EditorClassIdentifier: 
-  characterName: Joseph Stalin
-  moveSpeed: 5
-  jumpForce: 7.7
+  characterName: Benito Mussolini
+  moveSpeed: 6
+  jumpForce: 7.5
   health: 100
-  hitboxScale: {x: 0.8, y: 1.33}
+  hitboxScale: {x: 1, y: 1.6}
   hitboxPosition: {x: 0, y: 0}
-  idleSprite: {fileID: -6385572204141599088, guid: aa536f126d450bb49a6356544c321777, type: 3}
-  animator: {fileID: 9100000, guid: 298100ccdf3c5a94c832aa5438cf667f, type: 2}
-  lightAttack: {fileID: 11400000, guid: e60973b924a5b80439875c0673edbe20, type: 2}
+  idleSprite: {fileID: -6210275030850883369, guid: 4759445da46d3f74e9bdd73cdc265377, type: 3}
+  animator: {fileID: 0}
+  lightAttack: {fileID: 11400000, guid: 287a183abe93e854b9ac607d3c970e82, type: 2}
   heavyAttack: {fileID: 0}
   specialAttack: {fileID: 0}
   spriteScale: {x: 1, y: 1}

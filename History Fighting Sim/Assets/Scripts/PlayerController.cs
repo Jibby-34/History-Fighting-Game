@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public BoxCollider2D hitbox;
     public BoxCollider2D playerHitbox;
     public WinManager winManager;
+    public TextMeshProUGUI characterText;
 
 
     // Double jump avoidance
@@ -48,6 +50,7 @@ public class PlayerController : MonoBehaviour
         gameObject.transform.localScale = characterData.spriteScale;
         playerHitbox.size = characterData.hitboxScale;
         playerHitbox.offset = characterData.hitboxPosition;
+        characterText.text = characterData.characterName;
 
         // Change controls if player 2
         if (playerId == 2)

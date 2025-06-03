@@ -12,8 +12,8 @@ public class SelectionManager : MonoBehaviour
     public int selector2Index = 0;  // current selected index by selector 2
     int gridWidth = 3;
     int gridHeight = 3;
-    public TextMeshProUGUI player1Ready;
-    public TextMeshProUGUI player2Ready;
+    public TextMeshProUGUI player1Character;
+    public TextMeshProUGUI player2Character;
     bool player1Selected = false;
     bool player2Selected = false;
     public SelectedCharacter player1SelectedCharacter;
@@ -79,6 +79,7 @@ public class SelectionManager : MonoBehaviour
             // Set new cell state
             gridCells[selector1Index].isSelector1Here = true;
             gridCells[selector1Index].UpdateSprite();
+            player1Character.text = characters[selector1Index].characterName;
         }
         else if (selectorId == 2)
         {
@@ -89,6 +90,7 @@ public class SelectionManager : MonoBehaviour
 
             gridCells[selector2Index].isSelector2Here = true;
             gridCells[selector2Index].UpdateSprite();
+            player2Character.text = characters[selector2Index].characterName;
         }
     }
 
@@ -96,15 +98,13 @@ public class SelectionManager : MonoBehaviour
     {
         if (player == 1)
         {
-            player1Ready.text = "Ready";
-            player1Ready.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
+            player1Character.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
             player1SelectedCharacter.selectedCharacter = characters[index];
             player1Selected = true;
         }
         else
         {
-            player2Ready.text = "Ready";
-            player2Ready.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
+            player2Character.color = new Color(0.217556f, 0.9372549f, 0.1607843f);
             player2SelectedCharacter.selectedCharacter = characters[index];
             player2Selected = true;
         }
@@ -119,14 +119,12 @@ public class SelectionManager : MonoBehaviour
     {
         if (player == 1)
         {
-            player1Ready.text = "Not Ready";
-            player1Ready.color = new Color(0.9371068f, 0.1620781f, 0.1620781f); 
+            player1Character.color = new Color(0.9371068f, 0.1620781f, 0.1620781f); 
             player1Selected = false;
         }
         else
         {
-            player2Ready.text = "Not Ready";
-            player2Ready.color = new Color(0.9371068f, 0.1620781f, 0.1620781f);
+            player2Character.color = new Color(0.9371068f, 0.1620781f, 0.1620781f);
             player2Selected = false;
         }
     }
