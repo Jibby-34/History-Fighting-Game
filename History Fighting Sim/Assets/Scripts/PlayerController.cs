@@ -6,11 +6,12 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     private CharacterData characterData;
-    public CharacterData defaultCharacterData;
     public SelectedCharacter selectedCharacter;
+    public HealthManager healthManager;
     public AttackHandler attackHandler;
     public BoxCollider2D hitbox;
     public BoxCollider2D playerHitbox;
+    public WinManager winManager;
 
 
     // Double jump avoidance
@@ -65,7 +66,20 @@ public class PlayerController : MonoBehaviour
         HandleMovement();
         HandleJump();
         HandleAttack();
-        UpdateAnimations();  
+        UpdateAnimations();
+        CheckDead();
+    }
+
+    void CheckDead()
+    {
+        if (healthManager.GetHealth() <= 0)
+        {
+            playerHitbox.enabled = false;
+            winManager.FlagLoss(playerId);
+        }
+        if (groundCheck.transform.position.y <= -6) {
+            winManager.FlagLoss(playerId);
+        }
     }
 
     void HandleMovement()
@@ -86,17 +100,8 @@ public class PlayerController : MonoBehaviour
         // Move based off defined axis value (controllers will have a -1 to 1 range)
         float moveInput = Input.GetAxisRaw(horizontalAxis);
 
-        if (characterData == null)
-        {
-            characterData = defaultCharacterData;
-            rb.linearVelocity = new Vector2(moveInput * characterData.moveSpeed, rb.linearVelocity.y);
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(moveInput * 5, rb.linearVelocity.y);
-
-        }
         // Pull the character's unique speed into the equation, turning it into a movement vector
+        rb.linearVelocity = new Vector2(moveInput * characterData.moveSpeed, rb.linearVelocity.y);
 
         // Track the facing direction of the character 
         if (moveInput != 0)
