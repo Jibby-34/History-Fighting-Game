@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
         playerHitbox.size = characterData.hitboxScale;
         playerHitbox.offset = characterData.hitboxPosition;
         characterText.text = characterData.characterName;
+        groundCheck.localPosition = characterData.groundCheckPosition;
 
         // Change controls if player 2
         if (playerId == 2)

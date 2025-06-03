@@ -9,6 +9,7 @@ public class CharacterData : ScriptableObject
     public int health = 100;
     public Vector2 hitboxScale;
     public Vector2 hitboxPosition;
+    public Vector2 groundCheckPosition;
 
     [Header("Visuals")]
     public Sprite idleSprite;

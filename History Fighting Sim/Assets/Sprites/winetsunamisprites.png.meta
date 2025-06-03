@@ -115,12 +115,12 @@ TextureImporter:
       name: winetsunamisprites_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 1754
-        width: 565
+        width: 563
         height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: winetsunamisprites_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1214
-        width: 565
-        height: 221
+        x: 560
+        y: 1754
+        width: 543
+        height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: winetsunamisprites_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 670
-        width: 530
-        height: 205
+        x: 1103
+        y: 1754
+        width: 517
+        height: 153
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: winetsunamisprites_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 131
-        width: 424
-        height: 69
+        x: 0
+        y: 1214
+        width: 566
+        height: 221
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: winetsunamisprites_4
       rect:
         serializedVersion: 2
-        x: 589
-        y: 134
-        width: 223
-        height: 19
+        x: 557
+        y: 1214
+        width: 521
+        height: 339
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: winetsunamisprites_5
       rect:
         serializedVersion: 2
-        x: 572
-        y: 1754
-        width: 538
-        height: 121
+        x: 1075
+        y: 1214
+        width: 545
+        height: 273
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: winetsunamisprites_6
       rect:
         serializedVersion: 2
-        x: 1110
-        y: 1754
-        width: 510
-        height: 153
+        x: 0
+        y: 674
+        width: 520
+        height: 205
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: winetsunamisprites_7
       rect:
         serializedVersion: 2
-        x: 565
-        y: 1214
-        width: 530
-        height: 335
+        x: 505
+        y: 674
+        width: 558
+        height: 153
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: winetsunamisprites_8
       rect:
         serializedVersion: 2
-        x: 1102
-        y: 1214
-        width: 518
-        height: 273
+        x: 1066
+        y: 674
+        width: 554
+        height: 103
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: winetsunamisprites_9
       rect:
         serializedVersion: 2
-        x: 534
-        y: 674
-        width: 532
-        height: 153
+        x: 15
+        y: 134
+        width: 424
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: winetsunamisprites_10
       rect:
         serializedVersion: 2
-        x: 1066
-        y: 674
-        width: 554
-        height: 103
+        x: 589
+        y: 134
+        width: 223
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

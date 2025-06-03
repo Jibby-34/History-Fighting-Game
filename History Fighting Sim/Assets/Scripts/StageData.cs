@@ -8,4 +8,5 @@ public class StageData : ScriptableObject
     public Vector2[] platformSizes;
     public Color platformColor;
     public Sprite backgroundSprite;
+    public Sprite platformSprite;
 }

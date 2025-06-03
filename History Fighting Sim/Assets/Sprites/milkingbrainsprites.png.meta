@@ -289,1409 +289,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Milking Brain_0
+      name: milkingbrainsprites_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1031
-        width: 130
-        height: 234
+        x: 16
+        y: 1032
+        width: 128
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1782e31213f95d700800000000000000
-      internalID: 564532361664800881
+      spriteID: 155fd12f00adeac479992a6fcc68460d
+      internalID: 118104538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Milking Brain_1
+      name: milkingbrainsprites_1
       rect:
         serializedVersion: 2
-        x: 255
-        y: 1023
-        width: 194
-        height: 206
+        x: 256
+        y: 1024
+        width: 192
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 040832edbf9b25dd0800000000000000
-      internalID: -2498730351822405568
+      spriteID: 766cbaf2ca12ddc41a9521ee86831f36
+      internalID: 1691682282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Milking Brain_2
+      name: milkingbrainsprites_2
       rect:
         serializedVersion: 2
-        x: 511
-        y: 1023
-        width: 214
-        height: 210
+        x: 512
+        y: 1036
+        width: 233
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc3f05341f906c940800000000000000
-      internalID: 5315947341978596303
+      spriteID: b68fadcd1fec5f3429ce3f00a24d1622
+      internalID: -1865637842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Milking Brain_3
+      name: milkingbrainsprites_3
       rect:
         serializedVersion: 2
-        x: 727
-        y: 1189
-        width: 19
-        height: 8
+        x: 768
+        y: 1025
+        width: 256
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93c03b5109fafc9b0800000000000000
-      internalID: -5057630823139570631
+      spriteID: 37169f74eddc3ad4cb6fb8271b2d6eb4
+      internalID: -1768370940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Milking Brain_4
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 1023
-        width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2af70997a57076930800000000000000
-      internalID: 4136282867931053986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_5
-      rect:
-        serializedVersion: 2
-        x: 1009
-        y: 1190
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38b54aaffed47c810800000000000000
-      internalID: 1785481470373288835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_6
+      name: milkingbrainsprites_4
       rect:
         serializedVersion: 2
         x: 1023
-        y: 1023
-        width: 214
-        height: 210
+        y: 1024
+        width: 257
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0197baea34d0d3750800000000000000
-      internalID: 6286195239223523600
+      spriteID: 10cfe11aac7d3a149a41f187c19c0718
+      internalID: -1933766378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Milking Brain_7
-      rect:
-        serializedVersion: 2
-        x: 984
-        y: 1160
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8440f3332581b660800000000000000
-      internalID: 7399842048988169356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_8
-      rect:
-        serializedVersion: 2
-        x: 1267
-        y: 1159
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84d17ac3513d10f10800000000000000
-      internalID: 2234298978317835592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_9
-      rect:
-        serializedVersion: 2
-        x: 1241
-        y: 1131
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0d6b46bc9bd67120800000000000000
-      internalID: 2411356116623256842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_10
+      name: milkingbrainsprites_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 767
-        width: 213
-        height: 210
+        y: 768
+        width: 255
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6879d5cec7f6f32d0800000000000000
-      internalID: -3296793819879729274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_11
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 933
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23dd08ab6baa5f180800000000000000
-      internalID: -9082165371732959950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_12
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 767
-        width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fee610a78de8236c0800000000000000
-      internalID: -4165109644953293073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_13
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 933
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89b60fe6a3c010680800000000000000
-      internalID: -8790731552541611112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_14
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 767
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56f0616f63c9bec80800000000000000
-      internalID: -8292362529001828507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_15
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 767
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 446bb39d901a5ee90800000000000000
-      internalID: -6997009382378850748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_16
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 933
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 249d58928b9495dc0800000000000000
-      internalID: -3649804967687628478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_17
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 767
-        width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96430da1fb1140200800000000000000
-      internalID: 145260600468976745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_18
-      rect:
-        serializedVersion: 2
-        x: 1266
-        y: 933
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdf001c8f151f0040800000000000000
-      internalID: 4615931368316080095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_19
-      rect:
-        serializedVersion: 2
-        x: 474
-        y: 904
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b8fd1a74c07e0c40800000000000000
-      internalID: 5480441785721157817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_20
-      rect:
-        serializedVersion: 2
-        x: 754
-        y: 904
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 924c8b107a0d97240800000000000000
-      internalID: 4790089094392235049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_21
-      rect:
-        serializedVersion: 2
-        x: 1241
-        y: 904
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c37bf7f52f1e4db0800000000000000
-      internalID: -4805869504423038013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_22
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 875
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ddb24102aa55f170800000000000000
-      internalID: 8211569147432320466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_23
-      rect:
-        serializedVersion: 2
-        x: 730
-        y: 875
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 091e0a163a5aa3bc0800000000000000
-      internalID: -3802544814224776816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_24
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 874
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b7938110846d10b0800000000000000
-      internalID: -5756334247497197640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_25
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 511
-        width: 213
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f93c26a42a0709f0800000000000000
-      internalID: -502421680905504267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_26
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 511
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e2710e0cb684c350800000000000000
-      internalID: 6036097542830256872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_27
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 677
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2a3e8055aea8ed10800000000000000
-      internalID: 2155164446741117485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_28
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 511
-        width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8951894eed2855a80800000000000000
-      internalID: -8478726829625567848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_29
-      rect:
-        serializedVersion: 2
-        x: 754
-        y: 677
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5eb48728ef50bf10800000000000000
-      internalID: 2283430461776903772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_30
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 511
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eec231983007d7210800000000000000
-      internalID: 1332344225258482926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_31
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 511
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d785630eab7cfb5a0800000000000000
-      internalID: -6503259731460204419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_32
-      rect:
-        serializedVersion: 2
-        x: 1241
-        y: 677
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9be67b06d29996790800000000000000
-      internalID: -7536324081252602183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_33
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 648
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e802f905fd45c8db0800000000000000
-      internalID: -4788358985694633842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_34
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 648
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb8bcbaaf5a61a240800000000000000
-      internalID: 4801235636872591551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_35
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 648
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea886e8d8a33e6700800000000000000
-      internalID: 535422205990176942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_36
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 619
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 686b21b28c14d9010800000000000000
-      internalID: 1197185403922331270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_37
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 618
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10246e78e23e3dbc0800000000000000
-      internalID: -3759411474936217087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_38
-      rect:
-        serializedVersion: 2
-        x: 986
-        y: 619
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7da6182f97bb712e0800000000000000
-      internalID: -2155047764239488297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_39
-      rect:
-        serializedVersion: 2
-        x: 1268
-        y: 618
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6db6a1bad443afa60800000000000000
-      internalID: 7708531220385786838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_40
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 255
-        width: 213
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cd8b18a2ba991560800000000000000
-      internalID: 7285023964363722184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_41
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 421
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 235710e687b2965e0800000000000000
-      internalID: -1915952370227776206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_42
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 255
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e89f605169e886260800000000000000
-      internalID: 7091074388543863182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_43
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 255
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 279c2535d27539280800000000000000
-      internalID: -9037784175019374222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_44
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 421
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c4ed18665df80a50800000000000000
-      internalID: 6487713810783003845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_45
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 255
-        width: 214
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f58f3afec44c0b970800000000000000
-      internalID: 8768724309207414879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_46
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 421
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 440918a8223d8af10800000000000000
-      internalID: 2281305356569251908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_47
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 255
-        width: 214
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 469613ee079540b00800000000000000
-      internalID: 793857775891474788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_48
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 392
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f537050b29d4b6b80800000000000000
-      internalID: -8400535387510901921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_49
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 392
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed583ea1f2281e140800000000000000
-      internalID: 4747218621051405790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_50
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 392
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7acba4be8e779540800000000000000
-      internalID: 5014615861481949822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_51
-      rect:
-        serializedVersion: 2
-        x: 1266
-        y: 392
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc19d08bdc6356b80800000000000000
-      internalID: -8402249272605699635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_52
-      rect:
-        serializedVersion: 2
-        x: 474
-        y: 363
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b44a89be41c47aa0800000000000000
-      internalID: -6164089446098910029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_53
-      rect:
-        serializedVersion: 2
-        x: 756
-        y: 362
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0adda46a10388cb40800000000000000
-      internalID: 5460758591294856608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_54
-      rect:
-        serializedVersion: 2
-        x: 1242
-        y: 363
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49cf940beec98e0f0800000000000000
-      internalID: -1087446761036186476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_55
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 213
-        height: 209
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86363f9b1192255f0800000000000000
-      internalID: -769507430216015000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_56
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 165
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34c7206339f1d9980800000000000000
-      internalID: -8530627402043065277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_57
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 0
-        width: 214
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5915956421e25ea70800000000000000
-      internalID: 8855534898318496149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_58
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 165
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51dae0b636afe02d0800000000000000
-      internalID: -3310433371165905643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_59
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 0
-        width: 214
-        height: 209
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c66a19f578991cc70800000000000000
-      internalID: 8989635137911236204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_60
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 136
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf93b766cb96bcd30800000000000000
-      internalID: 4452768914479987195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_61
-      rect:
-        serializedVersion: 2
-        x: 754
-        y: 136
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b815c4b0c9fc4f290800000000000000
-      internalID: -7857427180743274101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_62
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 106
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ec90a95ab23c9420800000000000000
-      internalID: 2638039257681272032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Milking Brain_63
-      rect:
-        serializedVersion: 2
-        x: 730
-        y: 107
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1317fd631ef5850c0800000000000000
-      internalID: -4586810799583956687
+      spriteID: 046fe0ee17fa93d49ad11818483df665
+      internalID: 95354304
       vertices: []
       indices: 
       edges: []
@@ -1700,7 +424,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7182ed7f084215741a0a0b7aa6d0b17d
     internalID: 0
     vertices: []
     indices: 
@@ -1774,6 +498,12 @@ TextureImporter:
       Milking Brain_7: 7399842048988169356
       Milking Brain_8: 2234298978317835592
       Milking Brain_9: 2411356116623256842
+      milkingbrainsprites_0: 118104538
+      milkingbrainsprites_1: 1691682282
+      milkingbrainsprites_2: -1865637842
+      milkingbrainsprites_3: -1768370940
+      milkingbrainsprites_4: -1933766378
+      milkingbrainsprites_5: 95354304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

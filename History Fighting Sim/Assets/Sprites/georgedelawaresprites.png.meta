@@ -175,7 +175,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: George Delaware_0
+      name: georgedelawaresprites_0
       rect:
         serializedVersion: 2
         x: 13
@@ -188,16 +188,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c43e8027e7a5f0b0800000000000000
-      internalID: -5695461542614649663
+      spriteID: 4d27d34d95fb15146917c36567283eb2
+      internalID: 555506133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_1
+      name: georgedelawaresprites_1
       rect:
         serializedVersion: 2
         x: 566
@@ -210,16 +210,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1d179b2ab83d1330800000000000000
-      internalID: 3683162442505329950
+      spriteID: 807a59cde15a8124cb66e1b7807b1dbb
+      internalID: -326126766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_2
+      name: georgedelawaresprites_2
       rect:
         serializedVersion: 2
         x: 1106
@@ -232,16 +232,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d26c8c95d8a5af0e0800000000000000
-      internalID: -2235374701892811219
+      spriteID: 852fc9c0f474f1d4dbada1e8416a63cb
+      internalID: 1837936490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_3
+      name: georgedelawaresprites_3
       rect:
         serializedVersion: 2
         x: 0
@@ -254,60 +254,60 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a06607f6687aa65a0800000000000000
-      internalID: -6527220514083019254
+      spriteID: 8e8ce0ae5c52c09468c818e064c0f449
+      internalID: -310178523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_4
+      name: georgedelawaresprites_4
       rect:
         serializedVersion: 2
         x: 580
-        y: 660
+        y: 1024
         width: 447
-        height: 812
+        height: 448
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 54750bd96751b9570800000000000000
-      internalID: 8474390723023624005
+      spriteID: 3b9343a5787216d41ab78fb63a106db4
+      internalID: -1188835170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_5
+      name: georgedelawaresprites_5
       rect:
         serializedVersion: 2
         x: 1146
-        y: 687
+        y: 1027
         width: 448
-        height: 799
+        height: 459
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8028a0fa37c6f29f0800000000000000
-      internalID: -491054590246354424
+      spriteID: 33b51133876a945448e5b387d6b1d230
+      internalID: 2076712854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_6
+      name: georgedelawaresprites_6
       rect:
         serializedVersion: 2
         x: 80
@@ -320,258 +320,104 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 758082bad87a24d50800000000000000
-      internalID: 6720117820893956183
+      spriteID: 87db83f8daec04742a4ecc71fa155847
+      internalID: 2056151000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_7
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 512
-        width: 191
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: adea0ddbd6a09fd00800000000000000
-      internalID: 1006847458146299610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_8
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 512
-        width: 232
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 572090a98f51df050800000000000000
-      internalID: 5835844849622385269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_9
-      rect:
-        serializedVersion: 2
-        x: 931
-        y: 633
-        width: 150
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 509edad5e1bfbc020800000000000000
-      internalID: 2363258537325226245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_10
-      rect:
-        serializedVersion: 2
-        x: 1187
-        y: 512
-        width: 191
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6dadb214b0e565f0800000000000000
-      internalID: -763957497756275345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_11
-      rect:
-        serializedVersion: 2
-        x: 1376
-        y: 512
-        width: 232
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f182ae778cfc297a0800000000000000
-      internalID: -6371802062863587297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_12
-      rect:
-        serializedVersion: 2
-        x: 1471
-        y: 633
-        width: 149
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 111259848f6b23a10800000000000000
-      internalID: 1887772371307536657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_13
+      name: georgedelawaresprites_7
       rect:
         serializedVersion: 2
         x: 580
         y: 512
-        width: 163
-        height: 70
+        width: 501
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c606a17a783826bc0800000000000000
-      internalID: -3791323317645189012
+      spriteID: 5e9ddb9846ac65848aa7bdb1e68f9638
+      internalID: 823107963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_14
+      name: georgedelawaresprites_8
       rect:
         serializedVersion: 2
         x: 1120
         y: 512
-        width: 163
-        height: 70
+        width: 500
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8040fcc3a5b7f50a0800000000000000
-      internalID: -6890653277356096504
+      spriteID: 31dccba6777beb548b8fa13118918d6a
+      internalID: 1880311769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_15
+      name: georgedelawaresprites_9
       rect:
         serializedVersion: 2
-        x: 53
-        y: 120
-        width: 299
-        height: 353
+        x: 40
+        y: 0
+        width: 501
+        height: 473
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 78ee72f567980fa80800000000000000
-      internalID: -8435090960569340281
+      spriteID: fbcbabea30502834aa2729996b0e8d03
+      internalID: -1240013916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_16
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 67
-        width: 151
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccd6de0d18b8ea2b0800000000000000
-      internalID: -5571362299338461748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_17
+      name: georgedelawaresprites_10
       rect:
         serializedVersion: 2
         x: 580
-        y: 39
-        width: 298
-        height: 367
+        y: 0
+        width: 447
+        height: 406
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d3a87eb7edd319c90800000000000000
-      internalID: -7164877506398942659
+      spriteID: bd76728697aa76e458e25cd1566e74ae
+      internalID: 1558185674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: George Delaware_18
+      name: georgedelawaresprites_11
       rect:
         serializedVersion: 2
         x: 1093
@@ -584,164 +430,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ca9c07352883ed80800000000000000
-      internalID: -8222578801229653303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_19
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 191
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 051d14aa4ceb36860800000000000000
-      internalID: 7522065554518167888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_20
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 0
-        width: 110
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0af2ea6a3113cd4c0800000000000000
-      internalID: -4261477186928758880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_21
-      rect:
-        serializedVersion: 2
-        x: 431
-        y: 0
-        width: 110
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09577a09b9966ab00800000000000000
-      internalID: 839474497418917264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_22
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 0
-        width: 30
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34d819c09158a35f0800000000000000
-      internalID: -776161643136447165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_23
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 0
-        width: 110
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6309bd0e28c839cb0800000000000000
-      internalID: -4858385079256510410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_24
-      rect:
-        serializedVersion: 2
-        x: 876
-        y: 12
-        width: 151
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b7d1d5795440d160800000000000000
-      internalID: 7048208567854290873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: George Delaware_25
-      rect:
-        serializedVersion: 2
-        x: 998
-        y: 0
-        width: 29
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9644a2cfaf670910800000000000000
-      internalID: 1803532976460678814
+      spriteID: 5df007665f210934aac3dc847a13abd1
+      internalID: -318905535
       vertices: []
       indices: 
       edges: []
@@ -750,7 +442,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7d17b5b27c20819479a5af70959f2521
     internalID: 0
     vertices: []
     indices: 
@@ -786,6 +478,18 @@ TextureImporter:
       George Delaware_7: 1006847458146299610
       George Delaware_8: 5835844849622385269
       George Delaware_9: 2363258537325226245
+      georgedelawaresprites_0: 555506133
+      georgedelawaresprites_1: -326126766
+      georgedelawaresprites_10: 1558185674
+      georgedelawaresprites_11: -318905535
+      georgedelawaresprites_2: 1837936490
+      georgedelawaresprites_3: -310178523
+      georgedelawaresprites_4: -1188835170
+      georgedelawaresprites_5: 2076712854
+      georgedelawaresprites_6: 2056151000
+      georgedelawaresprites_7: 823107963
+      georgedelawaresprites_8: 1880311769
+      georgedelawaresprites_9: -1240013916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

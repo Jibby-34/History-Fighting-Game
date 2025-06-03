@@ -21,3 +21,4 @@ MonoBehaviour:
   - {x: 4, y: 0.6}
   platformColor: {r: 0.5031446, g: 0.28380728, b: 0.058541894, a: 1}
   backgroundSprite: {fileID: -6434168845861540024, guid: b094b43f5ca08c141a982246ec804a19, type: 3}
+  platformSprite: {fileID: 5175972328516428169, guid: 837c8800f8196784681abdcf07487aa7, type: 3}

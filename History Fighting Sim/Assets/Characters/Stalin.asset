@@ -18,7 +18,7 @@ MonoBehaviour:
   health: 100
   hitboxScale: {x: 0.8, y: 1.33}
   hitboxPosition: {x: 0, y: 0}
-  groundCheckPosition: {x: 0, y: -0.78}
+  groundCheckPosition: {x: 0, y: -0.85}
   idleSprite: {fileID: -6385572204141599088, guid: aa536f126d450bb49a6356544c321777, type: 3}
   animator: {fileID: 9100000, guid: 298100ccdf3c5a94c832aa5438cf667f, type: 2}
   lightAttack: {fileID: 11400000, guid: e60973b924a5b80439875c0673edbe20, type: 2}

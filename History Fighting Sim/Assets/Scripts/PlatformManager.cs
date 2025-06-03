@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlatformManager : MonoBehaviour
 {
-    public Sprite platformSprite;
     public SpriteRenderer background;
 
     void Start()
@@ -13,13 +12,13 @@ public class PlatformManager : MonoBehaviour
             GameObject rect = new GameObject("Platform" + i);
             rect.transform.position = GameData.selectedStage.platformPositions[i];
             SpriteRenderer sr = rect.AddComponent<SpriteRenderer>();
-            sr.sprite = platformSprite;
+            sr.sprite = GameData.selectedStage.platformSprite;
             sr.color = GameData.selectedStage.platformColor;
 
             rect.transform.localScale = GameData.selectedStage.platformSizes[i];
 
             BoxCollider2D collider = rect.AddComponent<BoxCollider2D>();
-            collider.size = Vector2.one;
+            collider.size = new Vector2(4, 1);
             collider.offset = Vector2.zero;
             rect.layer = LayerMask.NameToLayer("Ground");
             sr.sortingLayerName = "Background";
