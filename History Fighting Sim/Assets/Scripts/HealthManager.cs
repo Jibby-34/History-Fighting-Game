@@ -9,6 +9,8 @@ public class HealthManager : MonoBehaviour
     public RectTransform fillImage;
     public int width = 200;
     public int height = 25;
+    public bool isValidTarget = true;
+    public int iFrames = 0;
 
     void Start()
     {
@@ -24,11 +26,29 @@ public class HealthManager : MonoBehaviour
         UpdateHealthBar();
     }
 
-    public void TakeDamage(int damage)
+    public void Update()
     {
-        health = health - damage;
-        UpdateHealthBar();
-        Debug.Log(health);
+        if (!isValidTarget)
+        {
+            Debug.Log(iFrames);
+
+            iFrames = iFrames -= 1;
+
+            if (iFrames <= 0)
+            {
+                isValidTarget = true;
+            }
+        }
+    }
+
+    public void TakeDamage(int damage, int iFrames)
+    {
+        if (isValidTarget) {
+            health = health - damage;
+            this.iFrames = iFrames;
+            isValidTarget = false;
+            UpdateHealthBar();
+        }
     }
 
     void UpdateHealthBar()
@@ -40,5 +60,10 @@ public class HealthManager : MonoBehaviour
     public double GetHealth()
     {
         return health;
+    }
+
+    public bool GetValidTarget()
+    {
+        return isValidTarget;
     }
 }

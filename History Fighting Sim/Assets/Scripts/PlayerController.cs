@@ -210,7 +210,7 @@ public class PlayerController : MonoBehaviour
             HealthManager health = other.GetComponent<HealthManager>();
             KnockbackHandler knockbackHandler = other.GetComponent<KnockbackHandler>();
 
-            if (knockbackHandler != null)
+            if (health.GetValidTarget() && knockbackHandler != null)
             {
                 knockbackHandler.ApplyKnockback(gameObject.transform,
                     characterData.lightAttack.launchAngle,
@@ -218,10 +218,11 @@ public class PlayerController : MonoBehaviour
                     characterData.lightAttack.knockbackForce);
             }
 
-            if (health != null)
+            if (health.GetValidTarget() && health != null)
             {
-                health.TakeDamage(characterData.lightAttack.damage);
+                health.TakeDamage(characterData.lightAttack.damage, characterData.lightAttack.iFrames);
             }
+
         }
     }
 

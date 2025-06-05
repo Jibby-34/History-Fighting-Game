@@ -11,6 +11,7 @@ public class AttackData : ScriptableObject
     public float knockbackForce = 10f;
     public float launchAngle = 45f;
     public float delayTime = 1;
+    public int iFrames = 10;
 
     [Header("Hitbox")]
     public Vector2 hitboxOffset;

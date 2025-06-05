@@ -18,6 +18,7 @@ MonoBehaviour:
   knockbackForce: 4
   launchAngle: 45
   delayTime: 0.65
+  iFrames: 10
   hitboxOffset: {x: 0.3, y: -0.166}
   hitboxSize: {x: 1, y: 0.568337}
   damage: 10

@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: MansaMusa
   m_EditorClassIdentifier: 
   characterName: Mansa Musa
-  moveSpeed: 5
-  jumpForce: 10
-  health: 100
-  hitboxScale: {x: 0, y: 0}
-  hitboxPosition: {x: 0, y: 0}
-  idleSprite: {fileID: 0}
-  animator: {fileID: 0}
-  lightAttack: {fileID: 0}
+  moveSpeed: 4
+  jumpForce: 7.8
+  health: 175
+  hitboxScale: {x: 2, y: 3.1}
+  hitboxPosition: {x: 0, y: -0.03}
+  groundCheckPosition: {x: 0, y: -2.05}
+  idleSprite: {fileID: 2478778917607479135, guid: 164207e2516cae4408d6348eccf9cec6, type: 3}
+  animator: {fileID: 9100000, guid: c22db3be06d45244bba0b4007d8428f4, type: 2}
+  lightAttack: {fileID: 11400000, guid: f2ba8cc9d78989946984a15eeeb83b88, type: 2}
   heavyAttack: {fileID: 0}
   specialAttack: {fileID: 0}
-  spriteScale: {x: 0, y: 0}
+  spriteScale: {x: 0.5, y: 0.5}

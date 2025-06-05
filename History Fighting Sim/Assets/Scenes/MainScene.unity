@@ -991,7 +991,7 @@ SpriteRenderer:
   m_SortingLayerID: -419159937
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5454690590052660486, guid: 0c0ad1e34098fdb4581dfdaa58f89806, type: 3}
+  m_Sprite: {fileID: -107588879, guid: 164207e2516cae4408d6348eccf9cec6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1012,7 +1012,7 @@ Animator:
   m_GameObject: {fileID: 956627675}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e073c5638f85a914991e5b67b3c2bb67, type: 2}
+  m_Controller: {fileID: 9100000, guid: c22db3be06d45244bba0b4007d8428f4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1034,7 +1034,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 2.73, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 402483218}
@@ -1102,17 +1102,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.03}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8666667, y: 1.3583333}
+    oldSize: {x: 4.22, y: 2.69}
     newSize: {x: 1, y: 1.33}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.8, y: 1.3}
+  m_Size: {x: 2, y: 3.1}
   m_EdgeRadius: 0
 --- !u!114 &956627681
 MonoBehaviour:
@@ -1167,6 +1167,8 @@ MonoBehaviour:
   fillImage: {fileID: 816038332}
   width: 200
   height: 25
+  isValidTarget: 1
+  iFrames: 0
 --- !u!114 &956627684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1321,7 +1323,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!4 &1034614065
 Transform:
@@ -2664,6 +2666,8 @@ MonoBehaviour:
   fillImage: {fileID: 230925663}
   width: 200
   height: 25
+  isValidTarget: 1
+  iFrames: 0
 --- !u!114 &2069085036
 MonoBehaviour:
   m_ObjectHideFlags: 0

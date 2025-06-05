@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Shoot
   m_EditorClassIdentifier: 
   attackName: Shoot
-  duration: 0.4
-  force: 0
-  knockbackForce: 4
+  duration: 0.3
+  force: 0.1
+  knockbackForce: 5
   launchAngle: 45
-  delayTime: 0.4
-  hitboxOffset: {x: 0.5, y: 0}
-  hitboxSize: {x: 1.6, y: 1}
+  delayTime: 0.6
+  iFrames: 12
+  hitboxOffset: {x: 0.9, y: 0}
+  hitboxSize: {x: 2, y: 1}
   damage: 25
   attackAnimation: {fileID: 7400000, guid: a6049b57ffc90cd489e5eedc1ad8914e, type: 2}

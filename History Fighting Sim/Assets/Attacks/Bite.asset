@@ -18,7 +18,8 @@ MonoBehaviour:
   knockbackForce: 4
   launchAngle: 45
   delayTime: 1.2
+  iFrames: 25
   hitboxOffset: {x: 0.63, y: 0.09}
-  hitboxSize: {x: 1.125, y: 0.7}
+  hitboxSize: {x: 0.8, y: 0.7}
   damage: 30
   attackAnimation: {fileID: 7400000, guid: d08ceabf02604ce4293723f04984d0a3, type: 2}

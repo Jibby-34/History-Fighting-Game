@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: CrossWhack
   m_EditorClassIdentifier: 
   attackName: CrossWhack
-  duration: 0.3
-  force: 0
+  duration: 0.2
+  force: 0.1
   knockbackForce: 4
   launchAngle: 70
-  delayTime: 1
+  delayTime: 0.7
   hitboxOffset: {x: 1, y: 0.1}
   hitboxSize: {x: 2, y: 2}
   damage: 15

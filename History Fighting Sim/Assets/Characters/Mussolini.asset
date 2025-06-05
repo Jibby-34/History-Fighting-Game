@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: Benito Mussolini
   moveSpeed: 6
   jumpForce: 7.5
-  health: 100
+  health: 125
   hitboxScale: {x: 1, y: 1.6}
   hitboxPosition: {x: 0, y: 0}
   groundCheckPosition: {x: 0, y: -0.85}
