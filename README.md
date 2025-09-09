@@ -1,2 +1,3 @@
 # History-Fighting-Game
-A fighting game with historical figures
+
+A semi-finished fighting game featuring famous historical figures
